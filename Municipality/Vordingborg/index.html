@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; URL='/municipality.html?municipality=Vordingborg'" />
-    <script>window.location.href = "/municipality.html?municipality=Vordingborg";</script>
+    <meta charset="UTF-8">
     <title>Redirecting…</title>
+    <script>
+      const pathParts = window.location.pathname.split("/");
+      const repoBase = pathParts.slice(0, pathParts.indexOf("Municipality")).join("/");
+      const target = `${repoBase}/municipality.html?municipality=Vordingborg`;
+      window.location.href = target;
+    </script>
+    <meta http-equiv="refresh" content="0; URL=../municipality.html?municipality=Vordingborg" />
   </head>
   <body>
-    Redirecting to <a href="/municipality.html?municipality=Vordingborg">Vordingborg</a>...
+    Redirecting to <a href="../municipality.html?municipality=Vordingborg">Vordingborg</a>...
   </body>
 </html>
