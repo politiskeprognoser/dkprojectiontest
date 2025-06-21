@@ -243,12 +243,16 @@
               lastUpdated.style.fontSize = "16px";
               lastUpdated.style.color = "gray";
               content.appendChild(lastUpdated);
+              const pathParts = window.location.pathname.split("/");
+              const repoBase = pathParts.slice(0, pathParts.indexOf("Municipality")).join("/");
+              const muniFile = muniName.replace(/ /g, "_");
+              const jsonUrl = `${repoBase}/Precinct%20data/${muniFile}.json`;
 
-              const jsonUrl = new URL(`Precinct data/${muniName.replace(/ /g, "_")}.json`, window.location.href);
               fetch(jsonUrl)
               .then(response => response.json())
               .then(precinctData => {
-                fetch("party colors.json")
+                const colorsUrl = `${repoBase}/party colors.json`;
+                fetch(colorsUrl)
                   .then(resp => resp.json())
                   .then(partyColors => {
                     const allPartiesSet = new Set();
