@@ -248,12 +248,11 @@
               const repoPath = window.location.pathname.split("/").slice(0, -1).join("/");
               const basePath = window.location.origin + repoPath + "/";
               const precinctDataUrl = `${basePath}Precinct_data/${encodeURIComponent(muniFile)}.json`;
-              const partyColorsUrl = `${basePath}party_colors.json`;
 
               fetch(precinctDataUrl)
               .then(response => response.json())
               .then(precinctData => {
-                fetch(partyColorsUrl)
+                fetch('Party_colors.json')
                   .then(resp => resp.json())
                   .then(partyColors => {
                     const allPartiesSet = new Set();
