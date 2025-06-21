@@ -246,8 +246,7 @@
               const muniFile = muniName.replace(/ /g, "_");
 
               const basePath = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1);
-
-              const precinctDataUrl = `${basePath}Precinct%20data/${muniFile}.json`;
+              const precinctDataUrl = `${basePath}Precinct_data/${encodeURIComponent(muniFile)}.json`;
               const partyColorsUrl = `${basePath}party_colors.json`;
 
               fetch(precinctDataUrl)
