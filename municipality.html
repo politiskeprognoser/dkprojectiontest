@@ -244,7 +244,8 @@
               lastUpdated.style.color = "gray";
               content.appendChild(lastUpdated);
 
-              fetch(`Precinct data/${muniName.replace(/ /g, "_")}.json`)
+              const jsonUrl = new URL(`Precinct data/${muniName.replace(/ /g, "_")}.json`, window.location.href);
+              fetch(jsonUrl)
               .then(response => response.json())
               .then(precinctData => {
                 fetch("party colors.json")
