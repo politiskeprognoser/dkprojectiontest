@@ -1,0 +1,128 @@
+{
+  "A18501": {
+    "name": "Vestamager",
+    "electorate": 4829,
+    "total_votes": 2488,
+    "valid_votes": 2415,
+    "invalid_votes": 73,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 463,
+      "F. SF - Socialistisk Folkeparti": 364,
+      "O. Dansk Folkeparti": 271,
+      "V. Venstre, Danmarks Liberale Parti": 264,
+      "C. Det Konservative Folkeparti": 222,
+      "Ø. Enhedslisten - De Rød-Grønne": 138,
+      "B. Radikale Venstre": 145,
+      "M. Moderaterne": 141,
+      "I. Liberal Alliance": 173,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 171,
+      "Å. Alternativet": 63
+    }
+  },
+  "A18502": {
+    "name": "Pilegården",
+    "electorate": 5109,
+    "total_votes": 4502,
+    "valid_votes": 4421,
+    "invalid_votes": 81,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 849,
+      "F. SF - Socialistisk Folkeparti": 777,
+      "O. Dansk Folkeparti": 331,
+      "V. Venstre, Danmarks Liberale Parti": 485,
+      "C. Det Konservative Folkeparti": 431,
+      "Ø. Enhedslisten - De Rød-Grønne": 281,
+      "B. Radikale Venstre": 331,
+      "M. Moderaterne": 378,
+      "I. Liberal Alliance": 272,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 177,
+      "Å. Alternativet": 109
+    }
+  },
+  "A18503": {
+    "name": "Tårnby",
+    "electorate": 4759,
+    "total_votes": 2424,
+    "valid_votes": 2365,
+    "invalid_votes": 59,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 543,
+      "F. SF - Socialistisk Folkeparti": 449,
+      "O. Dansk Folkeparti": 242,
+      "V. Venstre, Danmarks Liberale Parti": 167,
+      "C. Det Konservative Folkeparti": 169,
+      "Ø. Enhedslisten - De Rød-Grønne": 191,
+      "B. Radikale Venstre": 153,
+      "M. Moderaterne": 149,
+      "I. Liberal Alliance": 120,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 125,
+      "Å. Alternativet": 57
+    }
+  },
+  "A18504": {
+    "name": "Korsvejen",
+    "electorate": 4103,
+    "total_votes": 2186,
+    "valid_votes": 2142,
+    "invalid_votes": 44,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 425,
+      "F. SF - Socialistisk Folkeparti": 479,
+      "O. Dansk Folkeparti": 157,
+      "V. Venstre, Danmarks Liberale Parti": 188,
+      "C. Det Konservative Folkeparti": 156,
+      "Ø. Enhedslisten - De Rød-Grønne": 176,
+      "B. Radikale Venstre": 172,
+      "M. Moderaterne": 139,
+      "I. Liberal Alliance": 123,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 71,
+      "Å. Alternativet": 56
+    }
+  },
+  "A18505": {
+    "name": "Løjtegården",
+    "electorate": 3694,
+    "total_votes": 2197,
+    "valid_votes": 2132,
+    "invalid_votes": 65,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 382,
+      "F. SF - Socialistisk Folkeparti": 442,
+      "O. Dansk Folkeparti": 145,
+      "V. Venstre, Danmarks Liberale Parti": 210,
+      "C. Det Konservative Folkeparti": 196,
+      "Ø. Enhedslisten - De Rød-Grønne": 128,
+      "B. Radikale Venstre": 179,
+      "M. Moderaterne": 151,
+      "I. Liberal Alliance": 120,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 117,
+      "Å. Alternativet": 62
+    }
+  },
+  "A18506": {
+    "name": "Kastrup",
+    "electorate": 8174,
+    "total_votes": 6422,
+    "valid_votes": 6284,
+    "invalid_votes": 138,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 1558,
+      "F. SF - Socialistisk Folkeparti": 1202,
+      "O. Dansk Folkeparti": 600,
+      "V. Venstre, Danmarks Liberale Parti": 360,
+      "C. Det Konservative Folkeparti": 481,
+      "Ø. Enhedslisten - De Rød-Grønne": 495,
+      "B. Radikale Venstre": 428,
+      "M. Moderaterne": 346,
+      "I. Liberal Alliance": 320,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 334,
+      "Å. Alternativet": 160
+    }
+  }
+}

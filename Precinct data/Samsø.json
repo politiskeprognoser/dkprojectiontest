@@ -1,0 +1,44 @@
+{
+  "A74101": {
+    "name": "Tranebjerg",
+    "electorate": 2569,
+    "total_votes": 1608,
+    "valid_votes": 1565,
+    "invalid_votes": 43,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 322,
+      "V. Venstre, Danmarks Liberale Parti": 276,
+      "A. Socialdemokratiet": 207,
+      "Ø. Enhedslisten - De Rød-Grønne": 146,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 155,
+      "C. Det Konservative Folkeparti": 114,
+      "O. Dansk Folkeparti": 89,
+      "M. Moderaterne": 68,
+      "I. Liberal Alliance": 69,
+      "B. Radikale Venstre": 55,
+      "Å. Alternativet": 64
+    }
+  },
+  "A74102": {
+    "name": "Nordby",
+    "electorate": 335,
+    "total_votes": 246,
+    "valid_votes": 245,
+    "invalid_votes": 1,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 51,
+      "V. Venstre, Danmarks Liberale Parti": 34,
+      "A. Socialdemokratiet": 34,
+      "Ø. Enhedslisten - De Rød-Grønne": 32,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 19,
+      "C. Det Konservative Folkeparti": 18,
+      "O. Dansk Folkeparti": 15,
+      "M. Moderaterne": 16,
+      "I. Liberal Alliance": 9,
+      "B. Radikale Venstre": 13,
+      "Å. Alternativet": 4
+    }
+  }
+}

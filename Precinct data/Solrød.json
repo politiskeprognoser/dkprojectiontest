@@ -1,0 +1,65 @@
+{
+  "A26901": {
+    "name": "Havdrup",
+    "electorate": 3578,
+    "total_votes": 2128,
+    "valid_votes": 2066,
+    "invalid_votes": 62,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 344,
+      "A. Socialdemokratiet": 361,
+      "F. SF - Socialistisk Folkeparti": 281,
+      "I. Liberal Alliance": 192,
+      "C. Det Konservative Folkeparti": 181,
+      "O. Dansk Folkeparti": 215,
+      "M. Moderaterne": 138,
+      "B. Radikale Venstre": 104,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 140,
+      "Ø. Enhedslisten - De Rød-Grønne": 60,
+      "Å. Alternativet": 50
+    }
+  },
+  "A26902": {
+    "name": "Det Nordlige Strandområde",
+    "electorate": 6128,
+    "total_votes": 5262,
+    "valid_votes": 5188,
+    "invalid_votes": 74,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 1008,
+      "A. Socialdemokratiet": 731,
+      "F. SF - Socialistisk Folkeparti": 625,
+      "I. Liberal Alliance": 651,
+      "C. Det Konservative Folkeparti": 508,
+      "O. Dansk Folkeparti": 411,
+      "M. Moderaterne": 473,
+      "B. Radikale Venstre": 300,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 225,
+      "Ø. Enhedslisten - De Rød-Grønne": 154,
+      "Å. Alternativet": 102
+    }
+  },
+  "A26903": {
+    "name": "Det Sydlige Strandområde",
+    "electorate": 7811,
+    "total_votes": 6672,
+    "valid_votes": 6590,
+    "invalid_votes": 82,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 1248,
+      "A. Socialdemokratiet": 957,
+      "F. SF - Socialistisk Folkeparti": 920,
+      "I. Liberal Alliance": 742,
+      "C. Det Konservative Folkeparti": 609,
+      "O. Dansk Folkeparti": 559,
+      "M. Moderaterne": 542,
+      "B. Radikale Venstre": 354,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 317,
+      "Ø. Enhedslisten - De Rød-Grønne": 204,
+      "Å. Alternativet": 138
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "A48201": {
+    "name": "Bagenkop",
+    "electorate": 742,
+    "total_votes": 407,
+    "valid_votes": 401,
+    "invalid_votes": 6,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 89,
+      "A. Socialdemokratiet": 58,
+      "F. SF - Socialistisk Folkeparti": 41,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 81,
+      "O. Dansk Folkeparti": 40,
+      "Ø. Enhedslisten - De Rød-Grønne": 24,
+      "C. Det Konservative Folkeparti": 28,
+      "M. Moderaterne": 12,
+      "I. Liberal Alliance": 10,
+      "B. Radikale Venstre": 13,
+      "Å. Alternativet": 5
+    }
+  },
+  "A48202": {
+    "name": "Humble",
+    "electorate": 1865,
+    "total_votes": 920,
+    "valid_votes": 888,
+    "invalid_votes": 32,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 174,
+      "A. Socialdemokratiet": 135,
+      "F. SF - Socialistisk Folkeparti": 147,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 115,
+      "O. Dansk Folkeparti": 77,
+      "Ø. Enhedslisten - De Rød-Grønne": 65,
+      "C. Det Konservative Folkeparti": 51,
+      "M. Moderaterne": 42,
+      "I. Liberal Alliance": 45,
+      "B. Radikale Venstre": 18,
+      "Å. Alternativet": 19
+    }
+  },
+  "A48203": {
+    "name": "Rudkøbing",
+    "electorate": 4589,
+    "total_votes": 2314,
+    "valid_votes": 2263,
+    "invalid_votes": 51,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 373,
+      "A. Socialdemokratiet": 433,
+      "F. SF - Socialistisk Folkeparti": 474,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 187,
+      "O. Dansk Folkeparti": 183,
+      "Ø. Enhedslisten - De Rød-Grønne": 140,
+      "C. Det Konservative Folkeparti": 132,
+      "M. Moderaterne": 113,
+      "I. Liberal Alliance": 96,
+      "B. Radikale Venstre": 90,
+      "Å. Alternativet": 42
+    }
+  },
+  "A48204": {
+    "name": "Tullebølle",
+    "electorate": 1475,
+    "total_votes": 818,
+    "valid_votes": 801,
+    "invalid_votes": 17,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 141,
+      "A. Socialdemokratiet": 157,
+      "F. SF - Socialistisk Folkeparti": 109,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 92,
+      "O. Dansk Folkeparti": 74,
+      "Ø. Enhedslisten - De Rød-Grønne": 43,
+      "C. Det Konservative Folkeparti": 63,
+      "M. Moderaterne": 32,
+      "I. Liberal Alliance": 45,
+      "B. Radikale Venstre": 38,
+      "Å. Alternativet": 7
+    }
+  },
+  "A48205": {
+    "name": "Snøde",
+    "electorate": 1158,
+    "total_votes": 631,
+    "valid_votes": 619,
+    "invalid_votes": 12,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 118,
+      "A. Socialdemokratiet": 89,
+      "F. SF - Socialistisk Folkeparti": 94,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 54,
+      "O. Dansk Folkeparti": 67,
+      "Ø. Enhedslisten - De Rød-Grønne": 44,
+      "C. Det Konservative Folkeparti": 31,
+      "M. Moderaterne": 34,
+      "I. Liberal Alliance": 34,
+      "B. Radikale Venstre": 43,
+      "Å. Alternativet": 11
+    }
+  }
+}

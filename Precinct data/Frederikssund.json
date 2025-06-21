@@ -1,0 +1,128 @@
+{
+  "A25001": {
+    "name": "Frederikssund Midt",
+    "electorate": 6456,
+    "total_votes": 5121,
+    "valid_votes": 5034,
+    "invalid_votes": 87,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 853,
+      "A. Socialdemokratiet": 779,
+      "V. Venstre, Danmarks Liberale Parti": 741,
+      "O. Dansk Folkeparti": 549,
+      "C. Det Konservative Folkeparti": 504,
+      "M. Moderaterne": 339,
+      "I. Liberal Alliance": 373,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 250,
+      "B. Radikale Venstre": 304,
+      "Ø. Enhedslisten - De Rød-Grønne": 250,
+      "Å. Alternativet": 92
+    }
+  },
+  "A25002": {
+    "name": "Frederikssund Nord",
+    "electorate": 4622,
+    "total_votes": 2827,
+    "valid_votes": 2767,
+    "invalid_votes": 60,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 483,
+      "A. Socialdemokratiet": 390,
+      "V. Venstre, Danmarks Liberale Parti": 438,
+      "O. Dansk Folkeparti": 285,
+      "C. Det Konservative Folkeparti": 253,
+      "M. Moderaterne": 207,
+      "I. Liberal Alliance": 204,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 168,
+      "B. Radikale Venstre": 169,
+      "Ø. Enhedslisten - De Rød-Grønne": 122,
+      "Å. Alternativet": 48
+    }
+  },
+  "A25003": {
+    "name": "Frederikssund Syd",
+    "electorate": 5139,
+    "total_votes": 4481,
+    "valid_votes": 4399,
+    "invalid_votes": 82,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 759,
+      "A. Socialdemokratiet": 649,
+      "V. Venstre, Danmarks Liberale Parti": 694,
+      "O. Dansk Folkeparti": 425,
+      "C. Det Konservative Folkeparti": 426,
+      "M. Moderaterne": 356,
+      "I. Liberal Alliance": 335,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 223,
+      "B. Radikale Venstre": 273,
+      "Ø. Enhedslisten - De Rød-Grønne": 175,
+      "Å. Alternativet": 84
+    }
+  },
+  "A25004": {
+    "name": "Skibby",
+    "electorate": 6538,
+    "total_votes": 3824,
+    "valid_votes": 3728,
+    "invalid_votes": 96,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 598,
+      "A. Socialdemokratiet": 562,
+      "V. Venstre, Danmarks Liberale Parti": 517,
+      "O. Dansk Folkeparti": 445,
+      "C. Det Konservative Folkeparti": 328,
+      "M. Moderaterne": 260,
+      "I. Liberal Alliance": 210,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 341,
+      "B. Radikale Venstre": 170,
+      "Ø. Enhedslisten - De Rød-Grønne": 222,
+      "Å. Alternativet": 75
+    }
+  },
+  "A25005": {
+    "name": "Jægerspris",
+    "electorate": 6814,
+    "total_votes": 4009,
+    "valid_votes": 3923,
+    "invalid_votes": 86,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 711,
+      "A. Socialdemokratiet": 667,
+      "V. Venstre, Danmarks Liberale Parti": 447,
+      "O. Dansk Folkeparti": 482,
+      "C. Det Konservative Folkeparti": 318,
+      "M. Moderaterne": 273,
+      "I. Liberal Alliance": 196,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 273,
+      "B. Radikale Venstre": 219,
+      "Ø. Enhedslisten - De Rød-Grønne": 243,
+      "Å. Alternativet": 94
+    }
+  },
+  "A25006": {
+    "name": "Slangerup",
+    "electorate": 5974,
+    "total_votes": 3628,
+    "valid_votes": 3541,
+    "invalid_votes": 87,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 551,
+      "A. Socialdemokratiet": 472,
+      "V. Venstre, Danmarks Liberale Parti": 612,
+      "O. Dansk Folkeparti": 374,
+      "C. Det Konservative Folkeparti": 331,
+      "M. Moderaterne": 275,
+      "I. Liberal Alliance": 279,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 255,
+      "B. Radikale Venstre": 200,
+      "Ø. Enhedslisten - De Rød-Grønne": 142,
+      "Å. Alternativet": 50
+    }
+  }
+}

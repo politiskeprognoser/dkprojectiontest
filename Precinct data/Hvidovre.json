@@ -1,0 +1,170 @@
+{
+  "A16701": {
+    "name": "Holmegårdshallen",
+    "electorate": 4053,
+    "total_votes": 2478,
+    "valid_votes": 2425,
+    "invalid_votes": 53,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 581,
+      "A. Socialdemokratiet": 399,
+      "Ø. Enhedslisten - De Rød-Grønne": 211,
+      "C. Det Konservative Folkeparti": 212,
+      "O. Dansk Folkeparti": 168,
+      "V. Venstre, Danmarks Liberale Parti": 217,
+      "B. Radikale Venstre": 196,
+      "M. Moderaterne": 133,
+      "I. Liberal Alliance": 147,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 77,
+      "Å. Alternativet": 84
+    }
+  },
+  "A16702": {
+    "name": "Præstemoseskolen",
+    "electorate": 3153,
+    "total_votes": 1612,
+    "valid_votes": 1570,
+    "invalid_votes": 42,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 323,
+      "A. Socialdemokratiet": 317,
+      "Ø. Enhedslisten - De Rød-Grønne": 130,
+      "C. Det Konservative Folkeparti": 145,
+      "O. Dansk Folkeparti": 136,
+      "V. Venstre, Danmarks Liberale Parti": 129,
+      "B. Radikale Venstre": 96,
+      "M. Moderaterne": 96,
+      "I. Liberal Alliance": 91,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 54,
+      "Å. Alternativet": 53
+    }
+  },
+  "A16703": {
+    "name": "Sønderkærskolen",
+    "electorate": 4127,
+    "total_votes": 2081,
+    "valid_votes": 2034,
+    "invalid_votes": 47,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 450,
+      "A. Socialdemokratiet": 368,
+      "Ø. Enhedslisten - De Rød-Grønne": 224,
+      "C. Det Konservative Folkeparti": 162,
+      "O. Dansk Folkeparti": 185,
+      "V. Venstre, Danmarks Liberale Parti": 159,
+      "B. Radikale Venstre": 133,
+      "M. Moderaterne": 101,
+      "I. Liberal Alliance": 120,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 72,
+      "Å. Alternativet": 60
+    }
+  },
+  "A16704": {
+    "name": "Kometen",
+    "electorate": 4506,
+    "total_votes": 2646,
+    "valid_votes": 2579,
+    "invalid_votes": 67,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 615,
+      "A. Socialdemokratiet": 528,
+      "Ø. Enhedslisten - De Rød-Grønne": 217,
+      "C. Det Konservative Folkeparti": 188,
+      "O. Dansk Folkeparti": 209,
+      "V. Venstre, Danmarks Liberale Parti": 205,
+      "B. Radikale Venstre": 192,
+      "M. Moderaterne": 145,
+      "I. Liberal Alliance": 98,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 127,
+      "Å. Alternativet": 55
+    }
+  },
+  "A16705": {
+    "name": "Dansborghallen",
+    "electorate": 4942,
+    "total_votes": 3037,
+    "valid_votes": 2975,
+    "invalid_votes": 62,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 675,
+      "A. Socialdemokratiet": 487,
+      "Ø. Enhedslisten - De Rød-Grønne": 243,
+      "C. Det Konservative Folkeparti": 300,
+      "O. Dansk Folkeparti": 213,
+      "V. Venstre, Danmarks Liberale Parti": 282,
+      "B. Radikale Venstre": 203,
+      "M. Moderaterne": 196,
+      "I. Liberal Alliance": 187,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 101,
+      "Å. Alternativet": 88
+    }
+  },
+  "A16706": {
+    "name": "Frihedens Idrætscenter",
+    "electorate": 5188,
+    "total_votes": 2909,
+    "valid_votes": 2848,
+    "invalid_votes": 61,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 620,
+      "A. Socialdemokratiet": 608,
+      "Ø. Enhedslisten - De Rød-Grønne": 244,
+      "C. Det Konservative Folkeparti": 249,
+      "O. Dansk Folkeparti": 262,
+      "V. Venstre, Danmarks Liberale Parti": 224,
+      "B. Radikale Venstre": 183,
+      "M. Moderaterne": 159,
+      "I. Liberal Alliance": 130,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 95,
+      "Å. Alternativet": 74
+    }
+  },
+  "A16707": {
+    "name": "Avedøre Skole",
+    "electorate": 5616,
+    "total_votes": 3097,
+    "valid_votes": 3040,
+    "invalid_votes": 57,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 615,
+      "A. Socialdemokratiet": 592,
+      "Ø. Enhedslisten - De Rød-Grønne": 235,
+      "C. Det Konservative Folkeparti": 297,
+      "O. Dansk Folkeparti": 274,
+      "V. Venstre, Danmarks Liberale Parti": 273,
+      "B. Radikale Venstre": 209,
+      "M. Moderaterne": 193,
+      "I. Liberal Alliance": 167,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 141,
+      "Å. Alternativet": 44
+    }
+  },
+  "A16708": {
+    "name": "Avedøre Idrætscenter",
+    "electorate": 4619,
+    "total_votes": 1900,
+    "valid_votes": 1844,
+    "invalid_votes": 56,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 365,
+      "A. Socialdemokratiet": 371,
+      "Ø. Enhedslisten - De Rød-Grønne": 239,
+      "C. Det Konservative Folkeparti": 131,
+      "O. Dansk Folkeparti": 201,
+      "V. Venstre, Danmarks Liberale Parti": 121,
+      "B. Radikale Venstre": 103,
+      "M. Moderaterne": 95,
+      "I. Liberal Alliance": 73,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 81,
+      "Å. Alternativet": 64
+    }
+  }
+}

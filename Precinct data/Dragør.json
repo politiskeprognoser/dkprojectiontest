@@ -1,0 +1,44 @@
+{
+  "A15501": {
+    "name": "Dragør Skole",
+    "electorate": 3917,
+    "total_votes": 2715,
+    "valid_votes": 2681,
+    "invalid_votes": 34,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 417,
+      "F. SF - Socialistisk Folkeparti": 397,
+      "A. Socialdemokratiet": 331,
+      "C. Det Konservative Folkeparti": 374,
+      "M. Moderaterne": 306,
+      "B. Radikale Venstre": 252,
+      "I. Liberal Alliance": 244,
+      "O. Dansk Folkeparti": 133,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 81,
+      "Ø. Enhedslisten - De Rød-Grønne": 101,
+      "Å. Alternativet": 45
+    }
+  },
+  "A15502": {
+    "name": "Hollænderhallen",
+    "electorate": 6528,
+    "total_votes": 5707,
+    "valid_votes": 5640,
+    "invalid_votes": 67,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 916,
+      "F. SF - Socialistisk Folkeparti": 841,
+      "A. Socialdemokratiet": 786,
+      "C. Det Konservative Folkeparti": 707,
+      "M. Moderaterne": 576,
+      "B. Radikale Venstre": 491,
+      "I. Liberal Alliance": 436,
+      "O. Dansk Folkeparti": 308,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 286,
+      "Ø. Enhedslisten - De Rød-Grønne": 205,
+      "Å. Alternativet": 88
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "A20101": {
+    "name": "Blovstrød",
+    "electorate": 2393,
+    "total_votes": 1807,
+    "valid_votes": 1788,
+    "invalid_votes": 19,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 361,
+      "V. Venstre, Danmarks Liberale Parti": 279,
+      "C. Det Konservative Folkeparti": 237,
+      "A. Socialdemokratiet": 174,
+      "B. Radikale Venstre": 201,
+      "I. Liberal Alliance": 146,
+      "M. Moderaterne": 178,
+      "Ø. Enhedslisten - De Rød-Grønne": 83,
+      "O. Dansk Folkeparti": 51,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 37,
+      "Å. Alternativet": 41
+    }
+  },
+  "A20102": {
+    "name": "Skovvang",
+    "electorate": 3692,
+    "total_votes": 2507,
+    "valid_votes": 2468,
+    "invalid_votes": 39,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 509,
+      "V. Venstre, Danmarks Liberale Parti": 372,
+      "C. Det Konservative Folkeparti": 259,
+      "A. Socialdemokratiet": 358,
+      "B. Radikale Venstre": 247,
+      "I. Liberal Alliance": 171,
+      "M. Moderaterne": 173,
+      "Ø. Enhedslisten - De Rød-Grønne": 159,
+      "O. Dansk Folkeparti": 106,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 65,
+      "Å. Alternativet": 49
+    }
+  },
+  "A20103": {
+    "name": "Lillerød",
+    "electorate": 4162,
+    "total_votes": 3184,
+    "valid_votes": 3129,
+    "invalid_votes": 55,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 599,
+      "V. Venstre, Danmarks Liberale Parti": 537,
+      "C. Det Konservative Folkeparti": 364,
+      "A. Socialdemokratiet": 386,
+      "B. Radikale Venstre": 374,
+      "I. Liberal Alliance": 235,
+      "M. Moderaterne": 286,
+      "Ø. Enhedslisten - De Rød-Grønne": 101,
+      "O. Dansk Folkeparti": 124,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 53,
+      "Å. Alternativet": 70
+    }
+  },
+  "A20104": {
+    "name": "Lynge",
+    "electorate": 3855,
+    "total_votes": 2557,
+    "valid_votes": 2495,
+    "invalid_votes": 62,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 364,
+      "V. Venstre, Danmarks Liberale Parti": 462,
+      "C. Det Konservative Folkeparti": 285,
+      "A. Socialdemokratiet": 296,
+      "B. Radikale Venstre": 205,
+      "I. Liberal Alliance": 228,
+      "M. Moderaterne": 212,
+      "Ø. Enhedslisten - De Rød-Grønne": 131,
+      "O. Dansk Folkeparti": 143,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 116,
+      "Å. Alternativet": 53
+    }
+  },
+  "A20105": {
+    "name": "Ravnsholt",
+    "electorate": 4312,
+    "total_votes": 3321,
+    "valid_votes": 3265,
+    "invalid_votes": 56,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 514,
+      "V. Venstre, Danmarks Liberale Parti": 623,
+      "C. Det Konservative Folkeparti": 484,
+      "A. Socialdemokratiet": 364,
+      "B. Radikale Venstre": 350,
+      "I. Liberal Alliance": 354,
+      "M. Moderaterne": 271,
+      "Ø. Enhedslisten - De Rød-Grønne": 83,
+      "O. Dansk Folkeparti": 96,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 63,
+      "Å. Alternativet": 63
+    }
+  }
+}

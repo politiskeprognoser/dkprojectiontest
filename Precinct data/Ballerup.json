@@ -1,0 +1,191 @@
+{
+  "A15101": {
+    "name": "Tapeten",
+    "electorate": 4030,
+    "total_votes": 1856,
+    "valid_votes": 1790,
+    "invalid_votes": 66,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 496,
+      "F. SF - Socialistisk Folkeparti": 276,
+      "V. Venstre, Danmarks Liberale Parti": 161,
+      "C. Det Konservative Folkeparti": 130,
+      "O. Dansk Folkeparti": 177,
+      "B. Radikale Venstre": 99,
+      "Ø. Enhedslisten - De Rød-Grønne": 126,
+      "M. Moderaterne": 110,
+      "I. Liberal Alliance": 84,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 79,
+      "Å. Alternativet": 52
+    }
+  },
+  "A15102": {
+    "name": "Balleruphallen - Rugvænget",
+    "electorate": 6457,
+    "total_votes": 3084,
+    "valid_votes": 2977,
+    "invalid_votes": 107,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 694,
+      "F. SF - Socialistisk Folkeparti": 538,
+      "V. Venstre, Danmarks Liberale Parti": 273,
+      "C. Det Konservative Folkeparti": 232,
+      "O. Dansk Folkeparti": 309,
+      "B. Radikale Venstre": 176,
+      "Ø. Enhedslisten - De Rød-Grønne": 237,
+      "M. Moderaterne": 151,
+      "I. Liberal Alliance": 162,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 121,
+      "Å. Alternativet": 84
+    }
+  },
+  "A15103": {
+    "name": "Skovvejens Skole - Vest",
+    "electorate": 2522,
+    "total_votes": 1642,
+    "valid_votes": 1612,
+    "invalid_votes": 30,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 320,
+      "F. SF - Socialistisk Folkeparti": 346,
+      "V. Venstre, Danmarks Liberale Parti": 169,
+      "C. Det Konservative Folkeparti": 167,
+      "O. Dansk Folkeparti": 139,
+      "B. Radikale Venstre": 102,
+      "Ø. Enhedslisten - De Rød-Grønne": 80,
+      "M. Moderaterne": 89,
+      "I. Liberal Alliance": 98,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 60,
+      "Å. Alternativet": 42
+    }
+  },
+  "A15104": {
+    "name": "Grantoftehallen",
+    "electorate": 3304,
+    "total_votes": 1429,
+    "valid_votes": 1381,
+    "invalid_votes": 48,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 282,
+      "F. SF - Socialistisk Folkeparti": 237,
+      "V. Venstre, Danmarks Liberale Parti": 107,
+      "C. Det Konservative Folkeparti": 109,
+      "O. Dansk Folkeparti": 200,
+      "B. Radikale Venstre": 73,
+      "Ø. Enhedslisten - De Rød-Grønne": 111,
+      "M. Moderaterne": 72,
+      "I. Liberal Alliance": 90,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 66,
+      "Å. Alternativet": 34
+    }
+  },
+  "A15105": {
+    "name": "Idrætshallen",
+    "electorate": 3788,
+    "total_votes": 2653,
+    "valid_votes": 2601,
+    "invalid_votes": 52,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 472,
+      "F. SF - Socialistisk Folkeparti": 495,
+      "V. Venstre, Danmarks Liberale Parti": 325,
+      "C. Det Konservative Folkeparti": 298,
+      "O. Dansk Folkeparti": 148,
+      "B. Radikale Venstre": 217,
+      "Ø. Enhedslisten - De Rød-Grønne": 137,
+      "M. Moderaterne": 193,
+      "I. Liberal Alliance": 192,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 65,
+      "Å. Alternativet": 59
+    }
+  },
+  "A15106": {
+    "name": "Skovlunde Skole - Lundebjerg",
+    "electorate": 5689,
+    "total_votes": 3272,
+    "valid_votes": 3181,
+    "invalid_votes": 91,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 719,
+      "F. SF - Socialistisk Folkeparti": 614,
+      "V. Venstre, Danmarks Liberale Parti": 260,
+      "C. Det Konservative Folkeparti": 316,
+      "O. Dansk Folkeparti": 257,
+      "B. Radikale Venstre": 225,
+      "Ø. Enhedslisten - De Rød-Grønne": 235,
+      "M. Moderaterne": 188,
+      "I. Liberal Alliance": 187,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 104,
+      "Å. Alternativet": 76
+    }
+  },
+  "A15107": {
+    "name": "Måløv Ny Hal",
+    "electorate": 4098,
+    "total_votes": 2794,
+    "valid_votes": 2730,
+    "invalid_votes": 64,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 502,
+      "F. SF - Socialistisk Folkeparti": 560,
+      "V. Venstre, Danmarks Liberale Parti": 327,
+      "C. Det Konservative Folkeparti": 287,
+      "O. Dansk Folkeparti": 144,
+      "B. Radikale Venstre": 198,
+      "Ø. Enhedslisten - De Rød-Grønne": 170,
+      "M. Moderaterne": 213,
+      "I. Liberal Alliance": 180,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 68,
+      "Å. Alternativet": 81
+    }
+  },
+  "A15108": {
+    "name": "Egebjerghallen",
+    "electorate": 3453,
+    "total_votes": 2384,
+    "valid_votes": 2330,
+    "invalid_votes": 54,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 392,
+      "F. SF - Socialistisk Folkeparti": 530,
+      "V. Venstre, Danmarks Liberale Parti": 267,
+      "C. Det Konservative Folkeparti": 197,
+      "O. Dansk Folkeparti": 107,
+      "B. Radikale Venstre": 215,
+      "Ø. Enhedslisten - De Rød-Grønne": 159,
+      "M. Moderaterne": 186,
+      "I. Liberal Alliance": 137,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 47,
+      "Å. Alternativet": 93
+    }
+  },
+  "A15109": {
+    "name": "Østerhøjhallen",
+    "electorate": 2133,
+    "total_votes": 1467,
+    "valid_votes": 1429,
+    "invalid_votes": 38,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 211,
+      "F. SF - Socialistisk Folkeparti": 355,
+      "V. Venstre, Danmarks Liberale Parti": 135,
+      "C. Det Konservative Folkeparti": 118,
+      "O. Dansk Folkeparti": 68,
+      "B. Radikale Venstre": 125,
+      "Ø. Enhedslisten - De Rød-Grønne": 140,
+      "M. Moderaterne": 99,
+      "I. Liberal Alliance": 93,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 41,
+      "Å. Alternativet": 44
+    }
+  }
+}

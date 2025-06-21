@@ -1,0 +1,15 @@
+{
+  "A. Socialdemokratiet": ["#f04d46", "white"],
+  "B. Radikale Venstre": ["#733280", "white"],
+  "C. Det Konservative Folkeparti": ["#004931", "white"],
+  "F. SF - Socialistisk Folkeparti": ["#e07ea8", "white"],
+  "I. Liberal Alliance": ["#3fb2be", "white"],
+  "M. Moderaterne": ["#b385e0", "white"],
+  "O. Dansk Folkeparti": ["#fcd03b", "black"],
+  "V. Venstre, Danmarks Liberale Parti": ["#002883", "white"],
+  "Æ. Danmarksdemokraterne - Inger Støjberg": ["#479ee5", "white"],
+  "Ø. Enhedslisten - De Rød-Grønne": ["#e6801a", "white"],
+  "Å. Alternativet": ["#00ff00", "black"],
+  "K. KD - Kristendemokraterne": ["#b1a269", "black"],
+  "S. Slesvigsk Parti": ["#e8ae00", "black"]
+}

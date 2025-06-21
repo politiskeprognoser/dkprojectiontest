@@ -1,0 +1,44 @@
+{
+  "A56301": {
+    "name": "Nordby",
+    "electorate": 2313,
+    "total_votes": 1620,
+    "valid_votes": 1594,
+    "invalid_votes": 26,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 288,
+      "A. Socialdemokratiet": 295,
+      "V. Venstre, Danmarks Liberale Parti": 233,
+      "B. Radikale Venstre": 143,
+      "Ø. Enhedslisten - De Rød-Grønne": 108,
+      "C. Det Konservative Folkeparti": 112,
+      "M. Moderaterne": 106,
+      "I. Liberal Alliance": 94,
+      "O. Dansk Folkeparti": 97,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 73,
+      "Å. Alternativet": 45
+    }
+  },
+  "A56302": {
+    "name": "Sønderho",
+    "electorate": 271,
+    "total_votes": 233,
+    "valid_votes": 230,
+    "invalid_votes": 3,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 58,
+      "A. Socialdemokratiet": 48,
+      "V. Venstre, Danmarks Liberale Parti": 31,
+      "B. Radikale Venstre": 7,
+      "Ø. Enhedslisten - De Rød-Grønne": 25,
+      "C. Det Konservative Folkeparti": 17,
+      "M. Moderaterne": 11,
+      "I. Liberal Alliance": 9,
+      "O. Dansk Folkeparti": 6,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 10,
+      "Å. Alternativet": 8
+    }
+  }
+}

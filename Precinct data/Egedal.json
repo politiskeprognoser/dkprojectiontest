@@ -1,0 +1,191 @@
+{
+  "A24001": {
+    "name": "Ledøje Forsamlingshus",
+    "electorate": 885,
+    "total_votes": 586,
+    "valid_votes": 570,
+    "invalid_votes": 16,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 99,
+      "A. Socialdemokratiet": 68,
+      "V. Venstre, Danmarks Liberale Parti": 89,
+      "C. Det Konservative Folkeparti": 77,
+      "M. Moderaterne": 57,
+      "I. Liberal Alliance": 49,
+      "B. Radikale Venstre": 43,
+      "O. Dansk Folkeparti": 44,
+      "Ø. Enhedslisten - De Rød-Grønne": 19,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 20,
+      "Å. Alternativet": 5
+    }
+  },
+  "A24002": {
+    "name": "Smørum Idrætscenter",
+    "electorate": 7876,
+    "total_votes": 6893,
+    "valid_votes": 6783,
+    "invalid_votes": 110,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 1302,
+      "A. Socialdemokratiet": 1015,
+      "V. Venstre, Danmarks Liberale Parti": 980,
+      "C. Det Konservative Folkeparti": 839,
+      "M. Moderaterne": 600,
+      "I. Liberal Alliance": 589,
+      "B. Radikale Venstre": 531,
+      "O. Dansk Folkeparti": 449,
+      "Ø. Enhedslisten - De Rød-Grønne": 276,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 157,
+      "Å. Alternativet": 45
+    }
+  },
+  "A24003": {
+    "name": "Stenløse",
+    "electorate": 4725,
+    "total_votes": 2893,
+    "valid_votes": 2818,
+    "invalid_votes": 75,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 433,
+      "A. Socialdemokratiet": 459,
+      "V. Venstre, Danmarks Liberale Parti": 449,
+      "C. Det Konservative Folkeparti": 255,
+      "M. Moderaterne": 234,
+      "I. Liberal Alliance": 202,
+      "B. Radikale Venstre": 245,
+      "O. Dansk Folkeparti": 197,
+      "Ø. Enhedslisten - De Rød-Grønne": 129,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 150,
+      "Å. Alternativet": 65
+    }
+  },
+  "A24004": {
+    "name": "Veksø",
+    "electorate": 1406,
+    "total_votes": 1002,
+    "valid_votes": 988,
+    "invalid_votes": 14,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 205,
+      "A. Socialdemokratiet": 170,
+      "V. Venstre, Danmarks Liberale Parti": 132,
+      "C. Det Konservative Folkeparti": 74,
+      "M. Moderaterne": 50,
+      "I. Liberal Alliance": 52,
+      "B. Radikale Venstre": 110,
+      "O. Dansk Folkeparti": 67,
+      "Ø. Enhedslisten - De Rød-Grønne": 63,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 46,
+      "Å. Alternativet": 19
+    }
+  },
+  "A24005": {
+    "name": "Ganløse",
+    "electorate": 2575,
+    "total_votes": 1838,
+    "valid_votes": 1803,
+    "invalid_votes": 35,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 330,
+      "A. Socialdemokratiet": 219,
+      "V. Venstre, Danmarks Liberale Parti": 303,
+      "C. Det Konservative Folkeparti": 179,
+      "M. Moderaterne": 180,
+      "I. Liberal Alliance": 143,
+      "B. Radikale Venstre": 180,
+      "O. Dansk Folkeparti": 97,
+      "Ø. Enhedslisten - De Rød-Grønne": 75,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 52,
+      "Å. Alternativet": 45
+    }
+  },
+  "A24006": {
+    "name": "Slagslunde",
+    "electorate": 1195,
+    "total_votes": 883,
+    "valid_votes": 868,
+    "invalid_votes": 15,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 213,
+      "A. Socialdemokratiet": 94,
+      "V. Venstre, Danmarks Liberale Parti": 91,
+      "C. Det Konservative Folkeparti": 62,
+      "M. Moderaterne": 67,
+      "I. Liberal Alliance": 60,
+      "B. Radikale Venstre": 72,
+      "O. Dansk Folkeparti": 41,
+      "Ø. Enhedslisten - De Rød-Grønne": 103,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 38,
+      "Å. Alternativet": 27
+    }
+  },
+  "A24007": {
+    "name": "Ølstykke",
+    "electorate": 5261,
+    "total_votes": 4572,
+    "valid_votes": 4496,
+    "invalid_votes": 76,
+    "is_reported": false,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 707,
+      "A. Socialdemokratiet": 712,
+      "V. Venstre, Danmarks Liberale Parti": 633,
+      "C. Det Konservative Folkeparti": 471,
+      "M. Moderaterne": 351,
+      "I. Liberal Alliance": 368,
+      "B. Radikale Venstre": 267,
+      "O. Dansk Folkeparti": 387,
+      "Ø. Enhedslisten - De Rød-Grønne": 175,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 295,
+      "Å. Alternativet": 130
+    }
+  },
+  "A24008": {
+    "name": "Stengårdsskolen",
+    "electorate": 4199,
+    "total_votes": 2476,
+    "valid_votes": 2399,
+    "invalid_votes": 77,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 357,
+      "A. Socialdemokratiet": 415,
+      "V. Venstre, Danmarks Liberale Parti": 370,
+      "C. Det Konservative Folkeparti": 259,
+      "M. Moderaterne": 173,
+      "I. Liberal Alliance": 178,
+      "B. Radikale Venstre": 145,
+      "O. Dansk Folkeparti": 224,
+      "Ø. Enhedslisten - De Rød-Grønne": 87,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 136,
+      "Å. Alternativet": 55
+    }
+  },
+  "A24009": {
+    "name": "Bækkegårdsskolen",
+    "electorate": 4231,
+    "total_votes": 2488,
+    "valid_votes": 2418,
+    "invalid_votes": 70,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 407,
+      "A. Socialdemokratiet": 413,
+      "V. Venstre, Danmarks Liberale Parti": 341,
+      "C. Det Konservative Folkeparti": 252,
+      "M. Moderaterne": 195,
+      "I. Liberal Alliance": 169,
+      "B. Radikale Venstre": 184,
+      "O. Dansk Folkeparti": 177,
+      "Ø. Enhedslisten - De Rød-Grønne": 93,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 124,
+      "Å. Alternativet": 63
+    }
+  }
+}

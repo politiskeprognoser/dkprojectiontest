@@ -1,0 +1,86 @@
+{
+  "A33601": {
+    "name": "Hårlevhallen",
+    "electorate": 4493,
+    "total_votes": 2466,
+    "valid_votes": 2407,
+    "invalid_votes": 59,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 424,
+      "V. Venstre, Danmarks Liberale Parti": 366,
+      "F. SF - Socialistisk Folkeparti": 351,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 263,
+      "O. Dansk Folkeparti": 242,
+      "C. Det Konservative Folkeparti": 190,
+      "M. Moderaterne": 148,
+      "I. Liberal Alliance": 144,
+      "Ø. Enhedslisten - De Rød-Grønne": 127,
+      "B. Radikale Venstre": 105,
+      "Å. Alternativet": 47
+    }
+  },
+  "A33602": {
+    "name": "Strøby Idrætscenter",
+    "electorate": 5905,
+    "total_votes": 5052,
+    "valid_votes": 4988,
+    "invalid_votes": 64,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 709,
+      "V. Venstre, Danmarks Liberale Parti": 852,
+      "F. SF - Socialistisk Folkeparti": 734,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 426,
+      "O. Dansk Folkeparti": 478,
+      "C. Det Konservative Folkeparti": 428,
+      "M. Moderaterne": 421,
+      "I. Liberal Alliance": 388,
+      "Ø. Enhedslisten - De Rød-Grønne": 229,
+      "B. Radikale Venstre": 219,
+      "Å. Alternativet": 104
+    }
+  },
+  "A33603": {
+    "name": "Stevnshallen",
+    "electorate": 4540,
+    "total_votes": 2474,
+    "valid_votes": 2392,
+    "invalid_votes": 82,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 435,
+      "V. Venstre, Danmarks Liberale Parti": 291,
+      "F. SF - Socialistisk Folkeparti": 342,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 283,
+      "O. Dansk Folkeparti": 263,
+      "C. Det Konservative Folkeparti": 191,
+      "M. Moderaterne": 149,
+      "I. Liberal Alliance": 162,
+      "Ø. Enhedslisten - De Rød-Grønne": 134,
+      "B. Radikale Venstre": 92,
+      "Å. Alternativet": 50
+    }
+  },
+  "A33604": {
+    "name": "Sydstevnshallen",
+    "electorate": 3011,
+    "total_votes": 1728,
+    "valid_votes": 1691,
+    "invalid_votes": 37,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 322,
+      "V. Venstre, Danmarks Liberale Parti": 236,
+      "F. SF - Socialistisk Folkeparti": 264,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 175,
+      "O. Dansk Folkeparti": 133,
+      "C. Det Konservative Folkeparti": 113,
+      "M. Moderaterne": 142,
+      "I. Liberal Alliance": 86,
+      "Ø. Enhedslisten - De Rød-Grønne": 98,
+      "B. Radikale Venstre": 91,
+      "Å. Alternativet": 31
+    }
+  }
+}

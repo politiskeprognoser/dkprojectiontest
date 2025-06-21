@@ -1,0 +1,149 @@
+{
+  "A25301": {
+    "name": "Arenaskolen ved Greve Kultur-Base",
+    "electorate": 4885,
+    "total_votes": 2363,
+    "valid_votes": 2315,
+    "invalid_votes": 48,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 356,
+      "A. Socialdemokratiet": 464,
+      "F. SF - Socialistisk Folkeparti": 286,
+      "O. Dansk Folkeparti": 287,
+      "I. Liberal Alliance": 177,
+      "C. Det Konservative Folkeparti": 190,
+      "M. Moderaterne": 163,
+      "B. Radikale Venstre": 108,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 119,
+      "Ø. Enhedslisten - De Rød-Grønne": 119,
+      "Å. Alternativet": 46
+    }
+  },
+  "A25302": {
+    "name": "Greve Idrætscenter",
+    "electorate": 7764,
+    "total_votes": 5994,
+    "valid_votes": 5902,
+    "invalid_votes": 92,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 1110,
+      "A. Socialdemokratiet": 1029,
+      "F. SF - Socialistisk Folkeparti": 760,
+      "O. Dansk Folkeparti": 599,
+      "I. Liberal Alliance": 495,
+      "C. Det Konservative Folkeparti": 467,
+      "M. Moderaterne": 430,
+      "B. Radikale Venstre": 320,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 304,
+      "Ø. Enhedslisten - De Rød-Grønne": 274,
+      "Å. Alternativet": 114
+    }
+  },
+  "A25303": {
+    "name": "Mosedeskolen",
+    "electorate": 7187,
+    "total_votes": 5548,
+    "valid_votes": 5462,
+    "invalid_votes": 86,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 1027,
+      "A. Socialdemokratiet": 953,
+      "F. SF - Socialistisk Folkeparti": 704,
+      "O. Dansk Folkeparti": 554,
+      "I. Liberal Alliance": 458,
+      "C. Det Konservative Folkeparti": 432,
+      "M. Moderaterne": 398,
+      "B. Radikale Venstre": 296,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 281,
+      "Ø. Enhedslisten - De Rød-Grønne": 254,
+      "Å. Alternativet": 105
+    }
+  },
+  "A25304": {
+    "name": "Karlslundehallerne",
+    "electorate": 6635,
+    "total_votes": 5643,
+    "valid_votes": 5571,
+    "invalid_votes": 72,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 1288,
+      "A. Socialdemokratiet": 824,
+      "F. SF - Socialistisk Folkeparti": 638,
+      "O. Dansk Folkeparti": 489,
+      "I. Liberal Alliance": 558,
+      "C. Det Konservative Folkeparti": 455,
+      "M. Moderaterne": 513,
+      "B. Radikale Venstre": 271,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 234,
+      "Ø. Enhedslisten - De Rød-Grønne": 193,
+      "Å. Alternativet": 108
+    }
+  },
+  "A25305": {
+    "name": "Tunehallerne",
+    "electorate": 5718,
+    "total_votes": 4875,
+    "valid_votes": 4808,
+    "invalid_votes": 67,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 948,
+      "A. Socialdemokratiet": 764,
+      "F. SF - Socialistisk Folkeparti": 607,
+      "O. Dansk Folkeparti": 493,
+      "I. Liberal Alliance": 435,
+      "C. Det Konservative Folkeparti": 369,
+      "M. Moderaterne": 413,
+      "B. Radikale Venstre": 228,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 306,
+      "Ø. Enhedslisten - De Rød-Grønne": 178,
+      "Å. Alternativet": 67
+    }
+  },
+  "A25306": {
+    "name": "Sundhedshuset",
+    "electorate": 5910,
+    "total_votes": 4563,
+    "valid_votes": 4495,
+    "invalid_votes": 68,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 845,
+      "A. Socialdemokratiet": 783,
+      "F. SF - Socialistisk Folkeparti": 579,
+      "O. Dansk Folkeparti": 456,
+      "I. Liberal Alliance": 377,
+      "C. Det Konservative Folkeparti": 356,
+      "M. Moderaterne": 328,
+      "B. Radikale Venstre": 244,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 232,
+      "Ø. Enhedslisten - De Rød-Grønne": 209,
+      "Å. Alternativet": 86
+    }
+  },
+  "A25307": {
+    "name": "Homeagerskolen",
+    "electorate": 6487,
+    "total_votes": 5009,
+    "valid_votes": 4933,
+    "invalid_votes": 76,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 927,
+      "A. Socialdemokratiet": 860,
+      "F. SF - Socialistisk Folkeparti": 635,
+      "O. Dansk Folkeparti": 501,
+      "I. Liberal Alliance": 414,
+      "C. Det Konservative Folkeparti": 391,
+      "M. Moderaterne": 360,
+      "B. Radikale Venstre": 267,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 254,
+      "Ø. Enhedslisten - De Rød-Grønne": 229,
+      "Å. Alternativet": 95
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "A18301": {
+    "name": "Ishøj Landsby",
+    "electorate": 1368,
+    "total_votes": 872,
+    "valid_votes": 842,
+    "invalid_votes": 30,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 133,
+      "F. SF - Socialistisk Folkeparti": 104,
+      "Ø. Enhedslisten - De Rød-Grønne": 69,
+      "O. Dansk Folkeparti": 74,
+      "V. Venstre, Danmarks Liberale Parti": 113,
+      "C. Det Konservative Folkeparti": 90,
+      "M. Moderaterne": 73,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 60,
+      "B. Radikale Venstre": 53,
+      "I. Liberal Alliance": 53,
+      "Å. Alternativet": 20
+    }
+  },
+  "A18302": {
+    "name": "Vibeholmskolen",
+    "electorate": 2684,
+    "total_votes": 1366,
+    "valid_votes": 1317,
+    "invalid_votes": 49,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 314,
+      "F. SF - Socialistisk Folkeparti": 181,
+      "Ø. Enhedslisten - De Rød-Grønne": 156,
+      "O. Dansk Folkeparti": 114,
+      "V. Venstre, Danmarks Liberale Parti": 132,
+      "C. Det Konservative Folkeparti": 105,
+      "M. Moderaterne": 69,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 93,
+      "B. Radikale Venstre": 67,
+      "I. Liberal Alliance": 56,
+      "Å. Alternativet": 30
+    }
+  },
+  "A18303": {
+    "name": "Gildbroskolen",
+    "electorate": 3445,
+    "total_votes": 1341,
+    "valid_votes": 1280,
+    "invalid_votes": 61,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 282,
+      "F. SF - Socialistisk Folkeparti": 219,
+      "Ø. Enhedslisten - De Rød-Grønne": 178,
+      "O. Dansk Folkeparti": 173,
+      "V. Venstre, Danmarks Liberale Parti": 86,
+      "C. Det Konservative Folkeparti": 64,
+      "M. Moderaterne": 55,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 77,
+      "B. Radikale Venstre": 59,
+      "I. Liberal Alliance": 53,
+      "Å. Alternativet": 34
+    }
+  },
+  "A18304": {
+    "name": "Strandgårdskolen",
+    "electorate": 2955,
+    "total_votes": 809,
+    "valid_votes": 779,
+    "invalid_votes": 30,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 184,
+      "F. SF - Socialistisk Folkeparti": 104,
+      "Ø. Enhedslisten - De Rød-Grønne": 164,
+      "O. Dansk Folkeparti": 86,
+      "V. Venstre, Danmarks Liberale Parti": 50,
+      "C. Det Konservative Folkeparti": 23,
+      "M. Moderaterne": 25,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 32,
+      "B. Radikale Venstre": 55,
+      "I. Liberal Alliance": 39,
+      "Å. Alternativet": 17
+    }
+  },
+  "A18305": {
+    "name": "Ishøj Bycenter",
+    "electorate": 3062,
+    "total_votes": 1591,
+    "valid_votes": 1552,
+    "invalid_votes": 39,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 329,
+      "F. SF - Socialistisk Folkeparti": 239,
+      "Ø. Enhedslisten - De Rød-Grønne": 159,
+      "O. Dansk Folkeparti": 132,
+      "V. Venstre, Danmarks Liberale Parti": 152,
+      "C. Det Konservative Folkeparti": 130,
+      "M. Moderaterne": 116,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 76,
+      "B. Radikale Venstre": 94,
+      "I. Liberal Alliance": 87,
+      "Å. Alternativet": 38
+    }
+  }
+}

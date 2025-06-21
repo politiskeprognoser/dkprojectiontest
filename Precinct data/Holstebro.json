@@ -1,0 +1,212 @@
+{
+  "A66101": {
+    "name": "Musikteatret",
+    "electorate": 14054,
+    "total_votes": 7759,
+    "valid_votes": 7559,
+    "invalid_votes": 200,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 1492,
+      "A. Socialdemokratiet": 1297,
+      "F. SF - Socialistisk Folkeparti": 957,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 629,
+      "I. Liberal Alliance": 835,
+      "C. Det Konservative Folkeparti": 731,
+      "O. Dansk Folkeparti": 510,
+      "B. Radikale Venstre": 439,
+      "M. Moderaterne": 339,
+      "Ø. Enhedslisten - De Rød-Grønne": 231,
+      "Å. Alternativet": 99
+    }
+  },
+  "A66102": {
+    "name": "Mejdal",
+    "electorate": 4190,
+    "total_votes": 2658,
+    "valid_votes": 2609,
+    "invalid_votes": 49,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 613,
+      "A. Socialdemokratiet": 421,
+      "F. SF - Socialistisk Folkeparti": 340,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 229,
+      "I. Liberal Alliance": 266,
+      "C. Det Konservative Folkeparti": 234,
+      "O. Dansk Folkeparti": 142,
+      "B. Radikale Venstre": 149,
+      "M. Moderaterne": 139,
+      "Ø. Enhedslisten - De Rød-Grønne": 51,
+      "Å. Alternativet": 25
+    }
+  },
+  "A66103": {
+    "name": "Skave",
+    "electorate": 1618,
+    "total_votes": 942,
+    "valid_votes": 934,
+    "invalid_votes": 8,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 246,
+      "A. Socialdemokratiet": 111,
+      "F. SF - Socialistisk Folkeparti": 83,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 167,
+      "I. Liberal Alliance": 88,
+      "C. Det Konservative Folkeparti": 64,
+      "O. Dansk Folkeparti": 82,
+      "B. Radikale Venstre": 33,
+      "M. Moderaterne": 36,
+      "Ø. Enhedslisten - De Rød-Grønne": 18,
+      "Å. Alternativet": 6
+    }
+  },
+  "A66104": {
+    "name": "Mejrup",
+    "electorate": 3845,
+    "total_votes": 2428,
+    "valid_votes": 2379,
+    "invalid_votes": 49,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 634,
+      "A. Socialdemokratiet": 359,
+      "F. SF - Socialistisk Folkeparti": 267,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 210,
+      "I. Liberal Alliance": 241,
+      "C. Det Konservative Folkeparti": 239,
+      "O. Dansk Folkeparti": 123,
+      "B. Radikale Venstre": 129,
+      "M. Moderaterne": 109,
+      "Ø. Enhedslisten - De Rød-Grønne": 44,
+      "Å. Alternativet": 24
+    }
+  },
+  "A66105": {
+    "name": "Nørreboulevardskolen",
+    "electorate": 9589,
+    "total_votes": 5131,
+    "valid_votes": 5009,
+    "invalid_votes": 122,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 876,
+      "A. Socialdemokratiet": 1054,
+      "F. SF - Socialistisk Folkeparti": 654,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 479,
+      "I. Liberal Alliance": 370,
+      "C. Det Konservative Folkeparti": 447,
+      "O. Dansk Folkeparti": 407,
+      "B. Radikale Venstre": 313,
+      "M. Moderaterne": 206,
+      "Ø. Enhedslisten - De Rød-Grønne": 160,
+      "Å. Alternativet": 43
+    }
+  },
+  "A66106": {
+    "name": "Vinderup",
+    "electorate": 4105,
+    "total_votes": 2272,
+    "valid_votes": 2215,
+    "invalid_votes": 57,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 417,
+      "A. Socialdemokratiet": 370,
+      "F. SF - Socialistisk Folkeparti": 212,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 383,
+      "I. Liberal Alliance": 150,
+      "C. Det Konservative Folkeparti": 143,
+      "O. Dansk Folkeparti": 339,
+      "B. Radikale Venstre": 88,
+      "M. Moderaterne": 66,
+      "Ø. Enhedslisten - De Rød-Grønne": 29,
+      "Å. Alternativet": 18
+    }
+  },
+  "A66107": {
+    "name": "Sevel",
+    "electorate": 1427,
+    "total_votes": 848,
+    "valid_votes": 824,
+    "invalid_votes": 24,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 224,
+      "A. Socialdemokratiet": 85,
+      "F. SF - Socialistisk Folkeparti": 69,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 143,
+      "I. Liberal Alliance": 82,
+      "C. Det Konservative Folkeparti": 71,
+      "O. Dansk Folkeparti": 72,
+      "B. Radikale Venstre": 26,
+      "M. Moderaterne": 28,
+      "Ø. Enhedslisten - De Rød-Grønne": 22,
+      "Å. Alternativet": 2
+    }
+  },
+  "A66108": {
+    "name": "Ulfborg",
+    "electorate": 2367,
+    "total_votes": 1443,
+    "valid_votes": 1389,
+    "invalid_votes": 54,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 337,
+      "A. Socialdemokratiet": 197,
+      "F. SF - Socialistisk Folkeparti": 175,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 271,
+      "I. Liberal Alliance": 78,
+      "C. Det Konservative Folkeparti": 69,
+      "O. Dansk Folkeparti": 105,
+      "B. Radikale Venstre": 43,
+      "M. Moderaterne": 67,
+      "Ø. Enhedslisten - De Rød-Grønne": 33,
+      "Å. Alternativet": 14
+    }
+  },
+  "A66109": {
+    "name": "Vemb",
+    "electorate": 1439,
+    "total_votes": 811,
+    "valid_votes": 778,
+    "invalid_votes": 33,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 194,
+      "A. Socialdemokratiet": 104,
+      "F. SF - Socialistisk Folkeparti": 84,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 163,
+      "I. Liberal Alliance": 48,
+      "C. Det Konservative Folkeparti": 37,
+      "O. Dansk Folkeparti": 92,
+      "B. Radikale Venstre": 9,
+      "M. Moderaterne": 27,
+      "Ø. Enhedslisten - De Rød-Grønne": 13,
+      "Å. Alternativet": 7
+    }
+  },
+  "A66110": {
+    "name": "Sdr. Nissum",
+    "electorate": 793,
+    "total_votes": 450,
+    "valid_votes": 446,
+    "invalid_votes": 4,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 109,
+      "A. Socialdemokratiet": 58,
+      "F. SF - Socialistisk Folkeparti": 60,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 71,
+      "I. Liberal Alliance": 24,
+      "C. Det Konservative Folkeparti": 19,
+      "O. Dansk Folkeparti": 38,
+      "B. Radikale Venstre": 17,
+      "M. Moderaterne": 22,
+      "Ø. Enhedslisten - De Rød-Grønne": 19,
+      "Å. Alternativet": 9
+    }
+  }
+}

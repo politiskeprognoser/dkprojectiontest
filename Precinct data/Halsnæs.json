@@ -1,0 +1,107 @@
+{
+  "A26001": {
+    "name": "Hundested",
+    "electorate": 7517,
+    "total_votes": 4117,
+    "valid_votes": 4016,
+    "invalid_votes": 101,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 725,
+      "F. SF - Socialistisk Folkeparti": 770,
+      "V. Venstre, Danmarks Liberale Parti": 399,
+      "O. Dansk Folkeparti": 389,
+      "C. Det Konservative Folkeparti": 258,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 272,
+      "Ø. Enhedslisten - De Rød-Grønne": 362,
+      "M. Moderaterne": 258,
+      "I. Liberal Alliance": 208,
+      "B. Radikale Venstre": 191,
+      "Å. Alternativet": 184
+    }
+  },
+  "A26002": {
+    "name": "Melby",
+    "electorate": 3187,
+    "total_votes": 1841,
+    "valid_votes": 1797,
+    "invalid_votes": 44,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 325,
+      "F. SF - Socialistisk Folkeparti": 343,
+      "V. Venstre, Danmarks Liberale Parti": 215,
+      "O. Dansk Folkeparti": 168,
+      "C. Det Konservative Folkeparti": 143,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 122,
+      "Ø. Enhedslisten - De Rød-Grønne": 107,
+      "M. Moderaterne": 130,
+      "I. Liberal Alliance": 109,
+      "B. Radikale Venstre": 91,
+      "Å. Alternativet": 44
+    }
+  },
+  "A26003": {
+    "name": "Enghaven",
+    "electorate": 2985,
+    "total_votes": 1506,
+    "valid_votes": 1473,
+    "invalid_votes": 33,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 283,
+      "F. SF - Socialistisk Folkeparti": 248,
+      "V. Venstre, Danmarks Liberale Parti": 189,
+      "O. Dansk Folkeparti": 168,
+      "C. Det Konservative Folkeparti": 108,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 120,
+      "Ø. Enhedslisten - De Rød-Grønne": 84,
+      "M. Moderaterne": 101,
+      "I. Liberal Alliance": 72,
+      "B. Radikale Venstre": 70,
+      "Å. Alternativet": 30
+    }
+  },
+  "A26004": {
+    "name": "Frederiksværk",
+    "electorate": 7528,
+    "total_votes": 5824,
+    "valid_votes": 5742,
+    "invalid_votes": 82,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 1044,
+      "F. SF - Socialistisk Folkeparti": 1007,
+      "V. Venstre, Danmarks Liberale Parti": 684,
+      "O. Dansk Folkeparti": 612,
+      "C. Det Konservative Folkeparti": 455,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 392,
+      "Ø. Enhedslisten - De Rød-Grønne": 393,
+      "M. Moderaterne": 391,
+      "I. Liberal Alliance": 348,
+      "B. Radikale Venstre": 262,
+      "Å. Alternativet": 154
+    }
+  },
+  "A26005": {
+    "name": "Ølsted",
+    "electorate": 2621,
+    "total_votes": 1381,
+    "valid_votes": 1339,
+    "invalid_votes": 42,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 237,
+      "F. SF - Socialistisk Folkeparti": 200,
+      "V. Venstre, Danmarks Liberale Parti": 180,
+      "O. Dansk Folkeparti": 151,
+      "C. Det Konservative Folkeparti": 100,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 135,
+      "Ø. Enhedslisten - De Rød-Grønne": 66,
+      "M. Moderaterne": 88,
+      "I. Liberal Alliance": 105,
+      "B. Radikale Venstre": 49,
+      "Å. Alternativet": 28
+    }
+  }
+}

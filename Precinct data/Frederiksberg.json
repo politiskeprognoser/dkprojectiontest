@@ -1,0 +1,74 @@
+{
+  "A11101": {
+    "name": "10. Kreds, Søerne",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  },
+  "A11102": {
+    "name": "10. Kreds, Grundtvigsvej",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  },
+  "A11103": {
+    "name": "10. Kreds, Bülowsvej",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  },
+  "A11104": {
+    "name": "10. Kreds, Duevej",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  },
+  "A11105": {
+    "name": "11. Kreds, Lindevang",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  },
+  "A11106": {
+    "name": "11. Kreds, Søndermark",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  },
+  "A11107": {
+    "name": "11. Kreds, Rådhuset",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  },
+  "A11108": {
+    "name": "11. Kreds, Nyelandsvej",
+    "electorate": 0,
+    "total_votes": 0,
+    "valid_votes": 0,
+    "invalid_votes": 0,
+    "is_reported": false,
+    "votes": {}
+  }
+}

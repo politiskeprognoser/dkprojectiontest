@@ -1,0 +1,65 @@
+{
+  "A49201": {
+    "name": "Marstal",
+    "electorate": 2200,
+    "total_votes": 1272,
+    "valid_votes": 1244,
+    "invalid_votes": 28,
+    "is_reported": true,
+    "votes": {
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 202,
+      "F. SF - Socialistisk Folkeparti": 192,
+      "A. Socialdemokratiet": 205,
+      "V. Venstre, Danmarks Liberale Parti": 125,
+      "C. Det Konservative Folkeparti": 147,
+      "Ø. Enhedslisten - De Rød-Grønne": 108,
+      "O. Dansk Folkeparti": 86,
+      "M. Moderaterne": 68,
+      "B. Radikale Venstre": 36,
+      "Å. Alternativet": 32,
+      "I. Liberal Alliance": 43
+    }
+  },
+  "A49202": {
+    "name": "Ærøskøbing",
+    "electorate": 1650,
+    "total_votes": 1129,
+    "valid_votes": 1114,
+    "invalid_votes": 15,
+    "is_reported": true,
+    "votes": {
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 325,
+      "F. SF - Socialistisk Folkeparti": 176,
+      "A. Socialdemokratiet": 176,
+      "V. Venstre, Danmarks Liberale Parti": 130,
+      "C. Det Konservative Folkeparti": 50,
+      "Ø. Enhedslisten - De Rød-Grønne": 76,
+      "O. Dansk Folkeparti": 37,
+      "M. Moderaterne": 34,
+      "B. Radikale Venstre": 53,
+      "Å. Alternativet": 32,
+      "I. Liberal Alliance": 25
+    }
+  },
+  "A49203": {
+    "name": "Søby",
+    "electorate": 829,
+    "total_votes": 530,
+    "valid_votes": 528,
+    "invalid_votes": 2,
+    "is_reported": true,
+    "votes": {
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 139,
+      "F. SF - Socialistisk Folkeparti": 82,
+      "A. Socialdemokratiet": 63,
+      "V. Venstre, Danmarks Liberale Parti": 64,
+      "C. Det Konservative Folkeparti": 31,
+      "Ø. Enhedslisten - De Rød-Grønne": 42,
+      "O. Dansk Folkeparti": 39,
+      "M. Moderaterne": 36,
+      "B. Radikale Venstre": 9,
+      "Å. Alternativet": 16,
+      "I. Liberal Alliance": 7
+    }
+  }
+}

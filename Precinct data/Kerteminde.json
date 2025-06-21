@@ -1,0 +1,128 @@
+{
+  "A44001": {
+    "name": "Hindsholm",
+    "electorate": 1527,
+    "total_votes": 961,
+    "valid_votes": 935,
+    "invalid_votes": 26,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 167,
+      "F. SF - Socialistisk Folkeparti": 193,
+      "V. Venstre, Danmarks Liberale Parti": 133,
+      "C. Det Konservative Folkeparti": 80,
+      "O. Dansk Folkeparti": 68,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 93,
+      "M. Moderaterne": 40,
+      "I. Liberal Alliance": 37,
+      "Ø. Enhedslisten - De Rød-Grønne": 66,
+      "B. Radikale Venstre": 43,
+      "Å. Alternativet": 15
+    }
+  },
+  "A44002": {
+    "name": "Kerteminde",
+    "electorate": 5396,
+    "total_votes": 4678,
+    "valid_votes": 4610,
+    "invalid_votes": 68,
+    "is_reported": false,
+    "votes": {
+      "A. Socialdemokratiet": 981,
+      "F. SF - Socialistisk Folkeparti": 772,
+      "V. Venstre, Danmarks Liberale Parti": 633,
+      "C. Det Konservative Folkeparti": 448,
+      "O. Dansk Folkeparti": 408,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 342,
+      "M. Moderaterne": 323,
+      "I. Liberal Alliance": 248,
+      "Ø. Enhedslisten - De Rød-Grønne": 217,
+      "B. Radikale Venstre": 176,
+      "Å. Alternativet": 62
+    }
+  },
+  "A44003": {
+    "name": "Nymarken",
+    "electorate": 1684,
+    "total_votes": 1016,
+    "valid_votes": 989,
+    "invalid_votes": 27,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 188,
+      "F. SF - Socialistisk Folkeparti": 174,
+      "V. Venstre, Danmarks Liberale Parti": 142,
+      "C. Det Konservative Folkeparti": 87,
+      "O. Dansk Folkeparti": 77,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 116,
+      "M. Moderaterne": 59,
+      "I. Liberal Alliance": 51,
+      "Ø. Enhedslisten - De Rød-Grønne": 50,
+      "B. Radikale Venstre": 32,
+      "Å. Alternativet": 13
+    }
+  },
+  "A44004": {
+    "name": "Marslev",
+    "electorate": 1611,
+    "total_votes": 909,
+    "valid_votes": 885,
+    "invalid_votes": 24,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 153,
+      "F. SF - Socialistisk Folkeparti": 117,
+      "V. Venstre, Danmarks Liberale Parti": 133,
+      "C. Det Konservative Folkeparti": 87,
+      "O. Dansk Folkeparti": 85,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 96,
+      "M. Moderaterne": 63,
+      "I. Liberal Alliance": 52,
+      "Ø. Enhedslisten - De Rød-Grønne": 46,
+      "B. Radikale Venstre": 36,
+      "Å. Alternativet": 17
+    }
+  },
+  "A44005": {
+    "name": "Langeskov",
+    "electorate": 3614,
+    "total_votes": 2042,
+    "valid_votes": 1962,
+    "invalid_votes": 80,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 438,
+      "F. SF - Socialistisk Folkeparti": 256,
+      "V. Venstre, Danmarks Liberale Parti": 325,
+      "C. Det Konservative Folkeparti": 273,
+      "O. Dansk Folkeparti": 146,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 158,
+      "M. Moderaterne": 92,
+      "I. Liberal Alliance": 113,
+      "Ø. Enhedslisten - De Rød-Grønne": 55,
+      "B. Radikale Venstre": 72,
+      "Å. Alternativet": 34
+    }
+  },
+  "A44006": {
+    "name": "Munkebo",
+    "electorate": 4335,
+    "total_votes": 2246,
+    "valid_votes": 2172,
+    "invalid_votes": 74,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 548,
+      "F. SF - Socialistisk Folkeparti": 387,
+      "V. Venstre, Danmarks Liberale Parti": 225,
+      "C. Det Konservative Folkeparti": 151,
+      "O. Dansk Folkeparti": 249,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 184,
+      "M. Moderaterne": 121,
+      "I. Liberal Alliance": 119,
+      "Ø. Enhedslisten - De Rød-Grønne": 100,
+      "B. Radikale Venstre": 66,
+      "Å. Alternativet": 22
+    }
+  }
+}

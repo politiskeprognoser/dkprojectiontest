@@ -1,0 +1,65 @@
+{
+  "A18701": {
+    "name": "Vallensbæk Skole, Multisalen",
+    "electorate": 3636,
+    "total_votes": 1654,
+    "valid_votes": 1620,
+    "invalid_votes": 34,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 230,
+      "C. Det Konservative Folkeparti": 250,
+      "F. SF - Socialistisk Folkeparti": 196,
+      "V. Venstre, Danmarks Liberale Parti": 174,
+      "Ø. Enhedslisten - De Rød-Grønne": 200,
+      "M. Moderaterne": 111,
+      "I. Liberal Alliance": 127,
+      "O. Dansk Folkeparti": 116,
+      "B. Radikale Venstre": 109,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 70,
+      "Å. Alternativet": 37
+    }
+  },
+  "A18702": {
+    "name": "Egholmskolen",
+    "electorate": 3241,
+    "total_votes": 2140,
+    "valid_votes": 2089,
+    "invalid_votes": 51,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 343,
+      "C. Det Konservative Folkeparti": 352,
+      "F. SF - Socialistisk Folkeparti": 304,
+      "V. Venstre, Danmarks Liberale Parti": 285,
+      "Ø. Enhedslisten - De Rød-Grønne": 99,
+      "M. Moderaterne": 176,
+      "I. Liberal Alliance": 152,
+      "O. Dansk Folkeparti": 143,
+      "B. Radikale Venstre": 134,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 62,
+      "Å. Alternativet": 39
+    }
+  },
+  "A18703": {
+    "name": "Pilehaveskolen",
+    "electorate": 3875,
+    "total_votes": 2290,
+    "valid_votes": 2236,
+    "invalid_votes": 54,
+    "is_reported": true,
+    "votes": {
+      "A. Socialdemokratiet": 399,
+      "C. Det Konservative Folkeparti": 364,
+      "F. SF - Socialistisk Folkeparti": 278,
+      "V. Venstre, Danmarks Liberale Parti": 276,
+      "Ø. Enhedslisten - De Rød-Grønne": 176,
+      "M. Moderaterne": 164,
+      "I. Liberal Alliance": 152,
+      "O. Dansk Folkeparti": 156,
+      "B. Radikale Venstre": 135,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 100,
+      "Å. Alternativet": 36
+    }
+  }
+}

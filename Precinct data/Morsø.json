@@ -1,0 +1,107 @@
+{
+  "A77301": {
+    "name": "Nordmors",
+    "electorate": 1022,
+    "total_votes": 594,
+    "valid_votes": 583,
+    "invalid_votes": 11,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 96,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 140,
+      "A. Socialdemokratiet": 99,
+      "F. SF - Socialistisk Folkeparti": 74,
+      "O. Dansk Folkeparti": 61,
+      "I. Liberal Alliance": 19,
+      "C. Det Konservative Folkeparti": 29,
+      "M. Moderaterne": 18,
+      "B. Radikale Venstre": 16,
+      "Ø. Enhedslisten - De Rød-Grønne": 27,
+      "Å. Alternativet": 4
+    }
+  },
+  "A77302": {
+    "name": "Midtmors",
+    "electorate": 3227,
+    "total_votes": 1769,
+    "valid_votes": 1728,
+    "invalid_votes": 41,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 405,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 403,
+      "A. Socialdemokratiet": 297,
+      "F. SF - Socialistisk Folkeparti": 168,
+      "O. Dansk Folkeparti": 121,
+      "I. Liberal Alliance": 90,
+      "C. Det Konservative Folkeparti": 79,
+      "M. Moderaterne": 75,
+      "B. Radikale Venstre": 36,
+      "Ø. Enhedslisten - De Rød-Grønne": 38,
+      "Å. Alternativet": 16
+    }
+  },
+  "A77303": {
+    "name": "Sydmors",
+    "electorate": 1861,
+    "total_votes": 1022,
+    "valid_votes": 1005,
+    "invalid_votes": 17,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 214,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 279,
+      "A. Socialdemokratiet": 141,
+      "F. SF - Socialistisk Folkeparti": 99,
+      "O. Dansk Folkeparti": 78,
+      "I. Liberal Alliance": 70,
+      "C. Det Konservative Folkeparti": 41,
+      "M. Moderaterne": 32,
+      "B. Radikale Venstre": 23,
+      "Ø. Enhedslisten - De Rød-Grønne": 23,
+      "Å. Alternativet": 5
+    }
+  },
+  "A77304": {
+    "name": "Sydvestmors",
+    "electorate": 1440,
+    "total_votes": 828,
+    "valid_votes": 805,
+    "invalid_votes": 23,
+    "is_reported": true,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 189,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 265,
+      "A. Socialdemokratiet": 97,
+      "F. SF - Socialistisk Folkeparti": 68,
+      "O. Dansk Folkeparti": 63,
+      "I. Liberal Alliance": 27,
+      "C. Det Konservative Folkeparti": 30,
+      "M. Moderaterne": 23,
+      "B. Radikale Venstre": 27,
+      "Ø. Enhedslisten - De Rød-Grønne": 10,
+      "Å. Alternativet": 6
+    }
+  },
+  "A77305": {
+    "name": "Nykøbing",
+    "electorate": 7654,
+    "total_votes": 3916,
+    "valid_votes": 3812,
+    "invalid_votes": 104,
+    "is_reported": false,
+    "votes": {
+      "V. Venstre, Danmarks Liberale Parti": 819,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 573,
+      "A. Socialdemokratiet": 825,
+      "F. SF - Socialistisk Folkeparti": 447,
+      "O. Dansk Folkeparti": 330,
+      "I. Liberal Alliance": 221,
+      "C. Det Konservative Folkeparti": 190,
+      "M. Moderaterne": 176,
+      "B. Radikale Venstre": 106,
+      "Ø. Enhedslisten - De Rød-Grønne": 98,
+      "Å. Alternativet": 27
+    }
+  }
+}

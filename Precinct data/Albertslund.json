@@ -1,0 +1,107 @@
+{
+  "A16501": {
+    "name": "Herstedøster Skole",
+    "electorate": 3841,
+    "total_votes": 2328,
+    "valid_votes": 2269,
+    "invalid_votes": 59,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 532,
+      "A. Socialdemokratiet": 375,
+      "Ø. Enhedslisten - De Rød-Grønne": 362,
+      "O. Dansk Folkeparti": 128,
+      "V. Venstre, Danmarks Liberale Parti": 184,
+      "B. Radikale Venstre": 149,
+      "C. Det Konservative Folkeparti": 171,
+      "M. Moderaterne": 102,
+      "I. Liberal Alliance": 96,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 68,
+      "Å. Alternativet": 102
+    }
+  },
+  "A16502": {
+    "name": "Egelundskolen",
+    "electorate": 3300,
+    "total_votes": 1947,
+    "valid_votes": 1906,
+    "invalid_votes": 41,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 456,
+      "A. Socialdemokratiet": 399,
+      "Ø. Enhedslisten - De Rød-Grønne": 255,
+      "O. Dansk Folkeparti": 141,
+      "V. Venstre, Danmarks Liberale Parti": 154,
+      "B. Radikale Venstre": 114,
+      "C. Det Konservative Folkeparti": 142,
+      "M. Moderaterne": 90,
+      "I. Liberal Alliance": 77,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 47,
+      "Å. Alternativet": 31
+    }
+  },
+  "A16503": {
+    "name": "Herstedlund Skole",
+    "electorate": 2935,
+    "total_votes": 1379,
+    "valid_votes": 1349,
+    "invalid_votes": 30,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 276,
+      "A. Socialdemokratiet": 264,
+      "Ø. Enhedslisten - De Rød-Grønne": 260,
+      "O. Dansk Folkeparti": 120,
+      "V. Venstre, Danmarks Liberale Parti": 67,
+      "B. Radikale Venstre": 107,
+      "C. Det Konservative Folkeparti": 72,
+      "M. Moderaterne": 50,
+      "I. Liberal Alliance": 53,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 47,
+      "Å. Alternativet": 33
+    }
+  },
+  "A16504": {
+    "name": "Kongsholmcenteret",
+    "electorate": 3564,
+    "total_votes": 1497,
+    "valid_votes": 1446,
+    "invalid_votes": 51,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 302,
+      "A. Socialdemokratiet": 340,
+      "Ø. Enhedslisten - De Rød-Grønne": 211,
+      "O. Dansk Folkeparti": 185,
+      "V. Venstre, Danmarks Liberale Parti": 83,
+      "B. Radikale Venstre": 62,
+      "C. Det Konservative Folkeparti": 69,
+      "M. Moderaterne": 34,
+      "I. Liberal Alliance": 54,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 72,
+      "Å. Alternativet": 34
+    }
+  },
+  "A16505": {
+    "name": "Herstedvester Skole",
+    "electorate": 4254,
+    "total_votes": 2258,
+    "valid_votes": 2221,
+    "invalid_votes": 37,
+    "is_reported": true,
+    "votes": {
+      "F. SF - Socialistisk Folkeparti": 609,
+      "A. Socialdemokratiet": 470,
+      "Ø. Enhedslisten - De Rød-Grønne": 340,
+      "O. Dansk Folkeparti": 131,
+      "V. Venstre, Danmarks Liberale Parti": 118,
+      "B. Radikale Venstre": 166,
+      "C. Det Konservative Folkeparti": 113,
+      "M. Moderaterne": 98,
+      "I. Liberal Alliance": 82,
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 47,
+      "Å. Alternativet": 47
+    }
+  }
+}

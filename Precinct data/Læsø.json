@@ -1,0 +1,23 @@
+{
+  "A82501": {
+    "name": "Læsø",
+    "electorate": 1457,
+    "total_votes": 763,
+    "valid_votes": 749,
+    "invalid_votes": 14,
+    "is_reported": true,
+    "votes": {
+      "Æ. Danmarksdemokraterne - Inger Støjberg": 146,
+      "V. Venstre, Danmarks Liberale Parti": 135,
+      "O. Dansk Folkeparti": 114,
+      "A. Socialdemokratiet": 86,
+      "F. SF - Socialistisk Folkeparti": 86,
+      "C. Det Konservative Folkeparti": 43,
+      "Ø. Enhedslisten - De Rød-Grønne": 41,
+      "M. Moderaterne": 32,
+      "I. Liberal Alliance": 29,
+      "B. Radikale Venstre": 20,
+      "Å. Alternativet": 17
+    }
+  }
+}
