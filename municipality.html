@@ -25,7 +25,7 @@
         document.title = `${muniName} municipal election projection`;
         pageTitle.textContent = `${muniName} municipal election projection`;
 
-        fetch("Result data.json")
+        fetch("Result_data.json")
           .then(response => response.json())
           .then(data => {
             const muniData = data.municipalities[muniName];
@@ -243,16 +243,17 @@
               lastUpdated.style.fontSize = "16px";
               lastUpdated.style.color = "gray";
               content.appendChild(lastUpdated);
-              const pathParts = window.location.pathname.split("/");
-              const repoBase = pathParts.slice(0, pathParts.indexOf("Municipality")).join("/");
               const muniFile = muniName.replace(/ /g, "_");
-              const jsonUrl = `${repoBase}/Precinct%20data/${muniFile}.json`;
 
-              fetch(jsonUrl)
+              const basePath = window.location.href.substring(0, window.location.href.lastIndexOf("/") + 1);
+
+              const precinctDataUrl = `${basePath}Precinct%20data/${muniFile}.json`;
+              const partyColorsUrl = `${basePath}party_colors.json`;
+
+              fetch(precinctDataUrl)
               .then(response => response.json())
               .then(precinctData => {
-                const colorsUrl = `${repoBase}/party colors.json`;
-                fetch(colorsUrl)
+                fetch(partyColorsUrl)
                   .then(resp => resp.json())
                   .then(partyColors => {
                     const allPartiesSet = new Set();
