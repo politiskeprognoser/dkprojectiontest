@@ -25,7 +25,7 @@
         document.title = `${muniName} municipal election projection`;
         pageTitle.textContent = `${muniName} municipal election projection`;
 
-        fetch("Result_data.json")
+        fetch("Result data.json")
           .then(response => response.json())
           .then(data => {
             const muniData = data.municipalities[muniName];
@@ -139,7 +139,7 @@
 
                 rowData.forEach((val, i) => {
                   const td = document.createElement("td");
-                  td.textContent = val;
+                  td.textContent = typeof val === "number" ? val.toLocaleString() : val;
                   td.style.padding = "6px 12px";
                   td.style.border = "1px solid black";
                   td.style.textAlign = i === 0 ? "left" : "center";
@@ -201,7 +201,7 @@
 
               totalRowData.forEach((val, i) => {
                 const td = document.createElement("td");
-                td.textContent = val;
+                td.textContent = typeof val === "number" ? val.toLocaleString() : val;
                 td.style.padding = "6px 12px";
                 td.style.border = "1px solid black";
                 td.style.textAlign = i === 0 ? "left" : "center";
@@ -249,113 +249,369 @@
               const basePath = window.location.origin + repoPath + "/";
               const precinctDataUrl = `${basePath}Precinct_data/${encodeURIComponent(muniFile)}.json`;
 
-              fetch(precinctDataUrl)
-              .then(response => response.json())
-              .then(precinctData => {
-                fetch('Party_colors.json')
-                  .then(resp => resp.json())
-                  .then(partyColors => {
-                    const allPartiesSet = new Set();
-                    for (const precinct of Object.values(precinctData)) {
-                      Object.keys(precinct.votes).forEach(p => allPartiesSet.add(p));
-                    }
-                    const allParties = Array.from(allPartiesSet).sort((a, b) => a.localeCompare(b, 'da'));
+              Promise.all([
+                fetch(precinctDataUrl).then(response => response.json()),
+                fetch("Party_colors.json").then(response => response.json())
+              ]).then(([precinctData, partyColors]) => {
+                  const allPartiesSet = new Set();
+                  for (const precinct of Object.values(precinctData)) {
+                    Object.keys(precinct.votes).forEach(p => allPartiesSet.add(p));
+                  }
+                  const allParties = Array.from(allPartiesSet).sort((a, b) => a.localeCompare(b, 'da'));
 
-                    const table = document.createElement("table");
-                    table.style.borderCollapse = "collapse";
-                    table.style.width = "100%";
-                    table.style.marginTop = "1em";
-                    table.style.marginBottom = "1em";
-                    table.style.border = "1px solid black";
+                  const table = document.createElement("table");
+                  table.style.borderCollapse = "collapse";
+                  table.style.width = "100%";
+                  table.style.marginTop = "1em";
+                  table.style.marginBottom = "1em";
+                  table.style.border = "1px solid black";
 
-                    // Header
-                    const headerRow = document.createElement("tr");
-                    const baseHeaders = ["Status", "Polling area", "Electorate", "Valid votes"];
-                    baseHeaders.forEach((label, idx) => {
-                      const th = document.createElement("th");
-                      th.textContent = label;
-                      th.style.backgroundColor = "#F2F2F2";
-                      th.style.fontSize = "16px";
-                      th.style.border = "1px solid black";
-                      th.style.padding = "4px";
-                      th.style.textAlign = (idx === 0 || idx >= 2) ? "center" : "left";
-                      headerRow.appendChild(th);
-                    });
-
-                    allParties.forEach(party => {
-                      const th = document.createElement("th");
-                      const [bg, fg] = partyColors[party] || ["#808080", "white"];
-                      const abbrev = party.includes(".") ? party.split(".")[0] : party;
-
-                      th.textContent = abbrev;
-                      th.title = party;
-                      th.style.backgroundColor = bg;
-                      th.style.color = fg;
-                      th.style.fontSize = "16px";
-                      th.style.border = "1px solid black";
-                      th.style.padding = "4px";
-                      th.style.textAlign = "center";
-                      th.style.cursor = "help";
-                      th.style.textDecoration = "underline dotted";
-                      headerRow.appendChild(th);
-                    });
-
-                    table.appendChild(headerRow);
-
-                    // Rows
-                    for (const precinct of Object.values(precinctData)) {
-                      const row = document.createElement("tr");
-
-                      const statusCell = document.createElement("td");
-                      statusCell.innerHTML = precinct.is_reported ? "<strong>Result</strong>" : "<i>Projection</i>";
-                      statusCell.style.backgroundColor = precinct.is_reported ? "#E5FFE5" : "#FFE5E5";
-                      row.appendChild(statusCell);
-
-                      const nameCell = document.createElement("td");
-                      nameCell.textContent = precinct.name;
-                      row.appendChild(nameCell);
-
-                      const elecCell = document.createElement("td");
-                      elecCell.textContent = precinct.electorate.toLocaleString();
-                      row.appendChild(elecCell);
-
-                      const validCell = document.createElement("td");
-                      validCell.textContent = precinct.valid_votes.toLocaleString();
-                      row.appendChild(validCell);
-
-                      for (const party of allParties) {
-                        const td = document.createElement("td");
-                        const votes = precinct.votes[party] || 0;
-                        td.textContent = votes.toLocaleString();
-                        td.style.fontSize = "14px";
-                        td.style.border = "1px solid black";
-                        td.style.padding = "4px";
-                        td.style.textAlign = "center";
-                        row.appendChild(td);
-                      }
-
-                      for (let i = 0; i < 4; i++) {
-                        const td = row.cells[i];
-                        td.style.fontSize = "14px";
-                        td.style.border = "1px solid black";
-                        td.style.padding = "4px";
-                        td.style.textAlign = (i === 1) ? "left" : "center";
-                      }
-
-                      table.appendChild(row);
-                    }
-
-                    const header = document.createElement("h2");
-                    header.textContent = "Result by polling area";
-                    header.style.marginTop = "2em";
-
-                    content.appendChild(header);
-                    content.appendChild(table);
+                  // Header
+                  const PrecinctsHeaderRow = document.createElement("tr");
+                  const baseHeaders = ["Status", "Polling area", "Electorate", "Valid votes"];
+                  baseHeaders.forEach((label, idx) => {
+                    const th = document.createElement("th");
+                    th.textContent = label;
+                    th.style.backgroundColor = "#F2F2F2";
+                    th.style.fontSize = "16px";
+                    th.style.border = "1px solid black";
+                    th.style.padding = "4px";
+                    th.style.textAlign = (idx === 0 || idx >= 2) ? "center" : "left";
+                    PrecinctsHeaderRow.appendChild(th);
                   });
+
+                  allParties.forEach(party => {
+                    const th = document.createElement("th");
+                    const [bg, fg] = partyColors[party] || ["#808080", "white"];
+                    const abbrev = party.includes(".") ? party.split(".")[0] : party;
+
+                    th.textContent = abbrev;
+                    th.title = party;
+                    th.style.backgroundColor = bg;
+                    th.style.color = fg;
+                    th.style.fontSize = "16px";
+                    th.style.border = "1px solid black";
+                    th.style.padding = "4px";
+                    th.style.textAlign = "center";
+                    th.style.cursor = "help";
+                    th.style.textDecoration = "underline dotted";
+                    PrecinctsHeaderRow.appendChild(th);
+                  });
+
+                  table.appendChild(PrecinctsHeaderRow);
+
+                  // Rows
+                  for (const precinct of Object.values(precinctData)) {
+                    const row = document.createElement("tr");
+
+                    const statusCell = document.createElement("td");
+                    statusCell.innerHTML = precinct.is_reported ? "<strong>Result</strong>" : "<i>Projection</i>";
+                    statusCell.style.backgroundColor = precinct.is_reported ? "#E5FFE5" : "#FFE5E5";
+                    row.appendChild(statusCell);
+
+                    const nameCell = document.createElement("td");
+                    nameCell.textContent = precinct.name;
+                    row.appendChild(nameCell);
+
+                    const elecCell = document.createElement("td");
+                    elecCell.textContent = precinct.electorate.toLocaleString();
+                    row.appendChild(elecCell);
+
+                    const validCell = document.createElement("td");
+                    validCell.textContent = precinct.valid_votes.toLocaleString();
+                    row.appendChild(validCell);
+
+                    for (const party of allParties) {
+                      const td = document.createElement("td");
+                      const votes = precinct.votes[party] || 0;
+                      td.textContent = votes.toLocaleString();
+                      td.style.fontSize = "14px";
+                      td.style.border = "1px solid black";
+                      td.style.padding = "4px";
+                      td.style.textAlign = "center";
+                      row.appendChild(td);
+                    }
+
+                    for (let i = 0; i < 4; i++) {
+                      const td = row.cells[i];
+                      td.style.fontSize = "14px";
+                      td.style.border = "1px solid black";
+                      td.style.padding = "4px";
+                      td.style.textAlign = (i === 1) ? "left" : "center";
+                    }
+
+                    table.appendChild(row);
+                  }
+
+                  const header = document.createElement("h2");
+                  header.textContent = "Result by polling area";
+                  header.style.marginTop = "2em";
+
+                  content.appendChild(header);
+                  content.appendChild(table);
+              // Seat apportionment tables
+              const seatHeader = document.createElement("h2");
+              seatHeader.textContent = "Seat apportionment";
+              seatHeader.style.marginTop = "2em";
+              content.appendChild(seatHeader);
+
+              const fullyCountedApportionment = muniData.percent_reported === 100;
+
+              function makeApportionmentRow(labelNode, currentData, projectedData) {
+                const row = document.createElement("tr");
+                const cell = document.createElement("td");
+                cell.style.width = "320px";
+
+                if (typeof labelNode === "string") {
+                  cell.textContent = labelNode;
+                } else {
+                  cell.appendChild(labelNode);
+                  const bg = labelNode.dataset.bg;
+                  const fg = labelNode.dataset.fg;
+                  if (bg) {
+                    cell.style.backgroundColor = bg;
+                    cell.style.color = fg || "white";
+                  }
+                }
+
+                cell.style.fontWeight = "bold";
+                cell.style.border = "1px solid black";
+                cell.style.padding = "4px";
+                row.appendChild(cell);
+
+                const vals = fullyCountedApportionment
+                  ? [projectedData.votes, projectedData.percentages.toFixed(2) + "%", projectedData.quotient.toFixed(2), projectedData.seats]
+                  : [
+                      currentData.votes, currentData.percentages.toFixed(2) + "%", currentData.quotient.toFixed(2), currentData.seats,
+                      projectedData.votes, projectedData.percentages.toFixed(2) + "%", projectedData.quotient.toFixed(2), projectedData.seats
+                    ];
+
+                vals.forEach(val => {
+                  const td = document.createElement("td");
+                  td.textContent = typeof val === "number" ? val.toLocaleString() : val;
+                  td.style.border = "1px solid black";
+                  td.style.padding = "4px";
+                  td.style.textAlign = "center";
+                  row.appendChild(td);
+                });
+
+                return row;
+              }
+
+              // Main apportionment
+              const mainHeader = document.createElement("h3");
+              mainHeader.textContent = "Main apportionment";
+              mainHeader.style.marginTop = "1em";
+              content.appendChild(mainHeader);
+              // Main divisor
+              const currentDivisor = muniData.current.divisor;
+              const projectedDivisor = muniData.projected.divisor;
+
+              const MainDivisor = document.createElement("p");
+              MainDivisor.style.margin = "0.5em 0";
+              MainDivisor.style.fontSize = "16px";
+              if (fullyCountedApportionment) {
+                const formatted = projectedDivisor != null ? `<strong>${projectedDivisor.toLocaleString()}</strong>` : "–";
+                MainDivisor.innerHTML = `Divisor: ${formatted}`;
+              } else {
+                const curr = currentDivisor != null ? `<strong>${currentDivisor.toLocaleString()}</strong>` : "–";
+                const proj = projectedDivisor != null ? `<strong>${projectedDivisor.toLocaleString()}</strong>` : "–";
+                MainDivisor.innerHTML = `Current divisor: ${curr} | Projected divisor: ${proj}`;
+              }
+
+              content.appendChild(MainDivisor);
+
+              const mainTable = document.createElement("table");
+              mainTable.style.width = "60%";
+              mainTable.style.borderCollapse = "collapse";
+              mainTable.style.marginBottom = "1em";
+              mainTable.style.border = "1px solid black";
+
+              const mainApportionmentHeaderRow = document.createElement("tr");
+              const baseLabels = ["Alliance / Party"];
+
+              const colLabels = fullyCountedApportionment
+                ? ["Votes", "%", "Quotient", "Seats"]
+                : [
+                    "Current Votes", "Current %", "Current Quotients", "Current Seats",
+                    "Projected Votes", "Projected %", "Projected Quotients", "Projected Seats"
+                  ];
+
+              [...baseLabels, ...colLabels].forEach(label => {
+                const th = document.createElement("th");
+                th.textContent = label;
+                th.style.backgroundColor = "#F2F2F2";
+                th.style.border = "1px solid black";
+                th.style.padding = "4px";
+                th.style.textAlign = "center";
+                mainApportionmentHeaderRow.appendChild(th);
               });
 
+              mainTable.appendChild(mainApportionmentHeaderRow);
+
+              const combined = muniData.combined_projected_vote_order || [];
+              combined.forEach(entry => {
+                const id = entry.id;
+                const label = document.createElement("span");
+                if (entry.type === "alliance") {
+                  label.textContent = entry.short_name || id;
+                  label.title = entry.long_name || "";
+                  label.style.cursor = "help";
+                  label.style.textDecoration = "underline dotted";
+
+                  const short = entry.short_name || "";
+                  let bg = "#808080", fg = "white";
+                  if (short.includes("A")) bg = "#F41061";
+                  else if (short.includes("V")) bg = "#4B4BFF";
+                  else if (short.includes("C")) bg = "#02AE50";
+                  else if (short.includes("F")) bg = "#FFCCF6", fg = "black";
+                  else if (short.includes("Ø")) bg = "#FF9366";
+                  else if (short.includes("I")) bg = "#0DC1A0";
+                  else if (short.includes("B")) bg = "#A153B5";
+                  else if (short.includes("M")) bg = "#C6B7E5", fg = "black";
+                  else if (short.includes("O")) bg = "#FFD866", fg = "black";
+                  else if (short.includes("Æ")) bg = "#59A3B2";
+                  else if (short.includes("Å")) bg = "#C0FFC0", fg = "black";
+                  else if (short.includes("K")) bg = "#CCC099", fg = "black";
+                  else if (short.includes("S")) bg = "#664747";
+
+                  label.dataset.bg = bg;
+                  label.dataset.fg = fg;
+                } else {
+                  label.textContent = id;
+                  const [bg, fg] = partyColors[id] || ["#808080", "white"];
+                  label.dataset.bg = bg;
+                  label.dataset.fg = fg;
+                  label.style.fontWeight = "bold";
+                }
+                const isAlliance = entry.type === "alliance";
+
+                const currentData = isAlliance ? muniData.current.alliances?.[id] : {
+                  votes: muniData.current.votes?.[id] || 0,
+                  percentages: muniData.current.percentages?.[id] || 0,
+                  quotient: muniData.current.quotients?.[id] || 0,
+                  seats: muniData.current.seats?.[id] || 0
+                };
+
+                const projectedData = isAlliance ? muniData.projected.alliances?.[id] : {
+                  votes: muniData.projected.votes?.[id] || 0,
+                  percentages: muniData.projected.percentages?.[id] || 0,
+                  quotient: muniData.projected.quotients?.[id] || 0,
+                  seats: muniData.projected.seats?.[id] || 0
+                };
+
+                const row = makeApportionmentRow(label, currentData, projectedData);
+                mainTable.appendChild(row);
+              });
+
+              content.appendChild(mainTable);
+
+              // Apportionment within alliance
+              const showSubApportionment = combined.some(entry => {
+              const id = entry.id;
+              return entry.type === "alliance" &&
+                (muniData.current.alliances?.[id]?.wins_seat || muniData.projected.alliances?.[id]?.wins_seat);
+            });
+
+            if (showSubApportionment) {
+              const subApportionmentHeader = document.createElement("h3");
+              subApportionmentHeader.textContent = "Subapportionment";
+              subApportionmentHeader.style.marginTop = "2em";
+              content.appendChild(subApportionmentHeader);
             }
-          })
+              combined.forEach(entry => {
+                if (entry.type !== "alliance") return;
+
+                const id = entry.id;
+                const allianceDataCurrent = muniData.current.alliances?.[id];
+                const allianceDataProjected = muniData.projected.alliances?.[id];
+
+                const showAlliance =
+                  allianceDataCurrent?.wins_seat ||
+                  allianceDataProjected?.wins_seat;
+
+                if (!showAlliance) return;
+
+                const subHeader = document.createElement("h4");
+                subHeader.textContent = `Alliance ${id}`;
+                subHeader.style.marginTop = "1em";
+                content.appendChild(subHeader);
+                const allianceDivisor = document.createElement("p");
+                allianceDivisor.style.margin = "0.5em 0";
+                allianceDivisor.style.fontSize = "16px";
+
+                const allianceCurrDiv = allianceDataCurrent?.divisor;
+                const allianceProjDiv = allianceDataProjected?.divisor;
+
+                if (fullyCountedApportionment) {
+                  const formatted = allianceProjDiv != null ? `<strong>${allianceProjDiv.toLocaleString()}</strong>` : "–";
+                  allianceDivisor.innerHTML = `Divisor: ${formatted}`;
+                } else {
+                  const curr = allianceCurrDiv != null ? `<strong>${allianceCurrDiv.toLocaleString()}</strong>` : "–";
+                  const proj = allianceProjDiv != null ? `<strong>${allianceProjDiv.toLocaleString()}</strong>` : "–";
+                  allianceDivisor.innerHTML = `Current divisor: ${curr} | Projected divisor: ${proj}`;
+                }
+
+                content.appendChild(allianceDivisor);
+                const subTable = document.createElement("table");
+                subTable.style.width = "60%";
+                subTable.style.borderCollapse = "collapse";
+                subTable.style.marginBottom = "1em";
+                subTable.style.border = "1px solid black";
+
+                const rowH = document.createElement("tr");
+                const subBaseLabels = ["Party"];
+                const subColLabels = fullyCountedApportionment
+                  ? ["Votes", "%", "Quotient", "Seats"]
+                  : ["Current Votes", "Current %", "Current Quotient", "Current Seats", "Projected Votes", "Projected %", "Projected Quotient", "Projected Seats"];
+                
+                [...subBaseLabels, ...subColLabels].forEach(label => {
+                  const th = document.createElement("th");
+                  th.textContent = label;
+                  th.style.backgroundColor = "#F2F2F2";
+                  th.style.border = "1px solid black";
+                  th.style.padding = "4px";
+                  th.style.textAlign = "center";
+                  rowH.appendChild(th);
+                });
+
+                subTable.appendChild(rowH);
+
+                const parties = entry.parties || [];
+                parties.forEach(party => {
+                  const label = document.createElement("span");
+                  label.textContent = party;
+                  const [bg, fg] = partyColors[party] || ["#808080", "white"];
+                  label.dataset.bg = bg;
+                  label.dataset.fg = fg;
+                  label.style.fontWeight = "bold";
+
+                  const curr = muniData.current || {};
+                  const proj = muniData.projected || {};
+
+                  const currentData = {
+                    votes: curr.votes?.[party] || 0,
+                    percentages: curr.percentages?.[party] || 0,
+                    quotient: curr.quotients?.[party] || 0,
+                    seats: curr.seats?.[party] || 0
+                  };
+
+                  const projectedData = {
+                    votes: proj.votes?.[party] || 0,
+                    percentages: proj.percentages?.[party] || 0,
+                    quotient: proj.quotients?.[party] || 0,
+                    seats: proj.seats?.[party] || 0
+                  };
+
+                  const row = makeApportionmentRow(label, currentData, projectedData);
+                  subTable.appendChild(row);
+                });
+
+                content.appendChild(subTable);
+              });
+            });
+          }
+        })
           .catch(err => {
             content.textContent = "Error loading result data.";
             console.error(err);
